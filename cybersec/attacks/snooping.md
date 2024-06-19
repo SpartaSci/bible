@@ -9,12 +9,12 @@ tags:
 term used in hardware context
 general term -> [[cybersec/attacks/sniffing|sniffing]]
 
-it's possible catch information from [[cybersec/defence/path ORAM|access pattern]]
+it's possible catch information from [[hardware/hardware-based security/memory/path ORAM|access pattern]]
 
 
 # protection
 
 [[Encryption]]
 
-[[path ORAM|Oblivious access]]
+[[hardware/hardware-based security/memory/path ORAM|Oblivious access]]
 

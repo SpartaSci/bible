@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "4f991a37127833fd",
+        "id": "9261f8f03fdbbb51",
         "type": "tabs",
         "children": [
           {
-            "id": "105696c92c05e3ef",
+            "id": "0a13da7cee35a181",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "electronics/Ring oscillator.md",
+                "file": "hardware/hardware-based security/memory/path ORAM.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d7ba0ea74ac2c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cybersec/defence/merkle Tree.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +34,12 @@
             }
           },
           {
-            "id": "0b2df19f123abbc9",
+            "id": "6024026a95007319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "619864e4f61722af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hardware/watermarking/_watermarking.md",
+                "file": "hardware/hardware-based security/_hardware-based security.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,8 +75,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IC",
-                "matchingCase": true,
+                "query": "ram  path:hardware  ",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "electronics/Ring oscillator.md",
+                "file": "hardware/hardware-based security/memory/path ORAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "electronics/Ring oscillator.md",
+                "file": "hardware/hardware-based security/memory/path ORAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "electronics/Ring oscillator.md"
+                "file": "hardware/hardware-based security/memory/path ORAM.md"
               }
             }
           }
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,46 +174,46 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "105696c92c05e3ef",
+  "active": "0a13da7cee35a181",
   "lastOpenFiles": [
+    "wireless/WLAN/CSMA-CA.md",
+    "hardware/hardware-based security/memory/_memory security.md",
+    "hardware/_type of memory/NVM - non volatile memory.md",
+    "hardware/hardware-based security/DSM - distributed shared memory.md",
+    "hardware/hardware-based security/principles of computer architecture.md",
+    "hardware/hardware-based security/_hardware-based security.md",
+    "hardware/_security.md",
+    "hardware/hardware-based security/memory",
+    "hardware/scan-based attacks.md",
+    "hardware/Test-infrastructure-based Attacks.md",
+    "hardware/watermarking/_watermarking.md",
+    "hardware/watermarking/testing.md",
     "hardware/watermarking/dynamic watermarking.md",
-    "electronics/Ring oscillator.md",
+    "hardware/_type of memory/CAM - Content-addressable memory.md",
+    "hardware/_type of memory/SAM - sequential access memory.md",
+    "hardware/hardware-based security/memory/path ORAM.md",
+    "cybersec/defence/merkle Tree.md",
+    "cybersec/attacks/traffic analysis.md",
+    "hardware/hardware trust/TPM - Trusted Platform Module.md",
+    "hardware/hardware trust/Protected Location.md",
+    "hardware/security/CRTM - Core Root of Trust for Measurement.md",
+    "hardware/security/Boot loader.md",
+    "hardware/hardware trust/_hardware trust.md",
+    "hardware/hardware trust",
+    "hardware/hardware trust/integrity measurements and reporting.md",
+    "cybersec/attacks/replay.md",
+    "cybersec/attacks/disturbance.md",
+    "hardware/hardware-based security/software measurement.md",
+    "hardware/PUFs",
+    "hardware/hardware trojan",
+    "hardware/hardware-based security",
+    "hardware/PCB",
     "hardware/images/testing_watermarking2.png",
     "hardware/images/testing_watermarking.png",
     "hardware/images",
-    "hardware/watermarking/_watermarking.md",
-    "testing.md",
-    "hardware/watermarking/static watermarking.md",
-    "hardware/watermarking/finite state machine.md",
-    "hardware/VLSI and IP/ASIC.md",
-    "hardware/VLSI and IP/combinational circuits.md",
-    "hardware/VLSI and IP/sequential circuits.md",
-    "electronics/Analog-to-digital converter.md",
-    "electronics/Decoder.md",
-    "electronics/_circuits/full adder.md",
-    "electronics/_circuits/multiplexer.md",
-    "hardware/_intro/vulnerability.md",
-    "hardware/_intro/_hardware security.md",
-    "hardware/_intro/Intellectual property.md",
-    "hardware/_intro/cycle in securing a system.md",
-    "hardware/_intro/supplies chain.md",
-    "hardware/_security.md",
-    "hardware/VLSI and IP/_VLSI - Very Large Scale Integration.md",
     "hardware/watermarking",
-    "hardware/VLSI and IP/Intellectual Properties.md",
-    "hardware/VLSI and IP/HDL - hardware description language.md",
-    "hardware/VLSI and IP/netlist.md",
-    "hardware/VLSI and IP/transistor.md",
-    "hardware/VLSI and IP/FPGA.md",
-    "hardware/scan-based attacks.md",
     "hardware/_intro",
     "hardware/_type of memory/Untitled",
-    "cybersec/crypto",
-    "Recording 20240617232140.webm",
-    "Recording 20240617232149.webm",
-    "cybersec/authentication",
-    "wireless/WLAN/Security",
-    "cybersec/enc/symmetric/stream",
     "hardware/security/Untitled.canvas"
   ]
 }

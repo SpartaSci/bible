@@ -6,7 +6,7 @@ Four principles for secure processor architecture design **based** on **existing
 
 # protect off-chip communication and memory 
 
-off-chip components and communication are untrusted and need [[encryption]], [[hashing]], and [[path ORAM|access pattern protection]] 
+off-chip components and communication are untrusted and need [[encryption]], [[hashing]], and [[hardware/hardware-based security/memory/path ORAM|access pattern protection]] 
 
 challenges:
 - performance
@@ -27,28 +27,28 @@ challenges:
 
 # allow TCB introspection
 
-We need to ensure the correct execution of [[TCB - trusted computing base |TCB]] through open access to [[hardware/TCB - trusted computing base|TCB]] design, monitoring, fingerprinting, and authentication.
+We need to ensure the correct execution of [[hardware/hardware-based security/TCB - trusted computing base|TCB]] through open access to [[hardware/hardware-based security/TCB - trusted computing base|TCB]] design, monitoring, fingerprinting, and authentication.
 
-open [[hardware/TCB - trusted computing base|TCB]] design can minimize attacks on ME or PSP security (secure engine)
+open [[hardware/hardware-based security/TCB - trusted computing base|TCB]] design can minimize attacks on ME or PSP security (secure engine)
 
 challenges:
-- ISA interface to introspect [[hardware/TCB - trusted computing base|TCB]]
+- ISA interface to introspect [[hardware/hardware-based security/TCB - trusted computing base|TCB]]
 - Area, energy, and performance costs due to extra features for introspection
-- leaking information about [[hardware/TCB - trusted computing base|TCB]] or [[hardware/TEE - trusted execution environment|TEE]]
+- leaking information about [[hardware/hardware-based security/TCB - trusted computing base|TCB]] or [[hardware/hardware-based security/TEE - trusted execution environment|TEE]]
 
 # authenticate and continuously monitor TEE and TCB
 
-Monitoring of software running inside [[hardware/TEE - trusted execution environment|TEE]], e.g [TSMs](https://en.wikipedia.org/wiki/Trusted_service_manager) or Enclaves, 
+Monitoring of software running inside [[hardware/hardware-based security/TEE - trusted execution environment|TEE]], e.g [TSMs](https://en.wikipedia.org/wiki/Trusted_service_manager) or Enclaves, 
 gives assurances about the state of the protected software.
 
-Likewise, monitoring [[hardware/TCB - trusted computing base|TCB]] ensures that protections are still in place
+Likewise, monitoring [[hardware/hardware-based security/TCB - trusted computing base|TCB]] ensures that protections are still in place
 
-continuous monitoring of a [[hardware/TEE - trusted execution environment|TEE]] can help prevent [TOC-TOU](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use) attack
+continuous monitoring of a [[hardware/hardware-based security/TEE - trusted execution environment|TEE]] can help prevent [TOC-TOU](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use) attack
 
 
 challenges:
 - interface design for monitoring
-- leaking information about [[hardware/TEE - trusted execution environment|TEE]]
+- leaking information about [[hardware/hardware-based security/TEE - trusted execution environment|TEE]]
 
 
 # pitfalls and fallacies

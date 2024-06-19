@@ -15,7 +15,7 @@ We can add the watermark either to **states** or to **transition**
 
 
 # Testing based
-To perform either online or offline [[testing|test]] of IC, a well-known approach relies on special types of **flip-flop** that can be **accessed externally**.
+To perform either online or offline [[hardware/watermarking/testing|test]] of IC, a well-known approach relies on special types of **flip-flop** that can be **accessed externally**.
 This method is usually referred to as the **boundary scan** approach. 
 
 It involves placing flip-flops throughout the circuit and adding a **multiplexer** **(TC)** to each flip-flop. This allows you to decide if the input to the flip-flop is the actual input **(D)** or an output from another flip-flop **(SD)**. 
@@ -39,3 +39,19 @@ Often based on adding a power consumption signature, it should be below the nois
 
 
 **Ring oscillators** triggered by a specific input sequence
+
+[[electronics/Ring oscillator|Ring oscillator]] are characterized by high switching activity, with frequent charging and dis-charging of the capacitors and current spikes due to short circuit currents in each inverter
+
+*Placing a ring oscillator in a circuit and keeping it off, results in normal power consumption*
+
+*Turn it on with a specific pattern (your signature) increase power consumption*
+
+
+**Leakage circuit** driven by proper input sequences
+Basic concept is the same, but use a circuit instead of just a ring oscillator.
+In normal mode the circuit does not increase power, but it does in test mode
+
+[[hardware/watermarking/LFSR - Linear Feedback Shift Register|LFSR]] are an example. One notable property of a LFSR is its high toggling activity. When it is active, the increased toggling results in higher power consumption. We can use it for a signature
+
+another idea is **input-modulated watermarking**. This technique involves triggering a circuit with a specific input pattern, when it reaches a specific configuration.
+This approach is similar to the previous concept, but adds complexity by **combining the input sequence with the current state of the machine**

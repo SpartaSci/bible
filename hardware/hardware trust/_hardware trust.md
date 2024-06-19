@@ -26,7 +26,7 @@ initiates process of recording what software is running
 implement in an immutable or securely updateable component 
 ## for storage RTS
 implements shielded locations like registers with special integrity or confidentiality
-Implemented in a [[hardware/TPM - Trusted Platform Module|Trusted Platform Module]]
+Implemented in a [[hardware/hardware trust/TPM - Trusted Platform Module|Trusted Platform Module]]
 ## for reporting RTR
 uses cryptography to give assurances to third parties
-Built from keys burned into [[hardware/TPM - Trusted Platform Module|TPM]] at manufacture time
+Built from keys burned into [[hardware/hardware trust/TPM - Trusted Platform Module|TPM]] at manufacture time

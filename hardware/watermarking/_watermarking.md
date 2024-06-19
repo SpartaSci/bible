@@ -20,6 +20,6 @@ It requires to :
 
 
 [[hardware/watermarking/dynamic watermarking|dynamic watermarking]] -> [[hardware/watermarking/dynamic watermarking#FSM based|FSM based]] -> [[hardware/watermarking/finite state machine|finite state machine]]
-					 -> [[hardware/watermarking/dynamic watermarking#Testing based|Testing based]] -> [[testing]]
+					 -> [[hardware/watermarking/dynamic watermarking#Testing based|Testing based]] -> [[hardware/watermarking/testing|testing]]
 					 -> [[hardware/watermarking/dynamic watermarking#Side channel based|side channel based]]
 					 

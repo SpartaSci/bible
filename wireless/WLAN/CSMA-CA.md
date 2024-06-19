@@ -10,7 +10,7 @@ Stands for **Carrier Sense Multiple Access - Collision Avoidance**
 The point is to **avoid collisions** since 2+ nodes can transmit at the same time.
 
 
-# CSMA
+# CSMA/CA
 **802.11 sender** sense the channel:
 - if the sense channel idle for [DIFS](https://en.wikipedia.org/wiki/DCF_Interframe_Space) then transmit entire frame, cause no Collision Detected
 - if sense channel is busy then, start **random backoff** time, transmit when timer expires, if no ACK received, increase random backoff interval and repeat the process until ACK
@@ -22,7 +22,7 @@ The point is to **avoid collisions** since 2+ nodes can transmit at the same tim
 > [!Attention] Collisions may still happen
 > since the sender can't detect another sender until receiver sends back an ACK
 
-# AC - avoid collision
+# with RTS/CTS
 > allow the sender to **reserve** the channel rather than random access of data frames, in order to **avoid collision of long data frames**
 
 1. sender first transmits **small** request-to-send **RTS** packets to base stations using CSMA, **RTSs may still collide** with each other, but they are short
