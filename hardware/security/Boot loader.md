@@ -1,0 +1,1 @@
+>is a [computer program](https://en.wikipedia.org/wiki/Computer_program "Computer program") that is responsible for [booting](https://en.wikipedia.org/wiki/Booting "Booting") a computer. If it also provides an interactive menu with multiple boot choices then it's often called a **boot manager**.

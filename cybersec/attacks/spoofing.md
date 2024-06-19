@@ -3,6 +3,8 @@ tags:
   - "#attack/active"
   - "#memory"
   - network
+aliases:
+  - masquerading
 ---
 
 # network definition
@@ -12,3 +14,4 @@ is a situation in which a person or program successfully identifies as another b
 > inject new memory commands to try to read or modify data
 
 
+[[cybersec/attacks/ARP spoofing|ARP spoofing]]

@@ -8,5 +8,9 @@ tags:
 
 
 # protect against
+
+[[cybersec/attacks/sniffing|sniffing]]
+
 [[snooping]]
+
 [[spoofing]]

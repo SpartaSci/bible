@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "6cd2ece22caaafed",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f991a37127833fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "105696c92c05e3ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "electronics/Ring oscillator.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b2df19f123abbc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "619864e4f61722af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hardware/watermarking/_watermarking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73d366b18736bf53",
+    "type": "split",
+    "children": [
+      {
+        "id": "037f0b8691adc611",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "541395af2c6738c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8286071e5a932434",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "IC",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d19f5b3fbac539b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.50484466552734
+  },
+  "right": {
+    "id": "275f5e0309e7df49",
+    "type": "split",
+    "children": [
+      {
+        "id": "b27835ba5dcebc4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3894ed527f3275a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "electronics/Ring oscillator.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c53d48d27befdb7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "electronics/Ring oscillator.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1151579987d4893f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b78f90d4c48e490e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "electronics/Ring oscillator.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "105696c92c05e3ef",
+  "lastOpenFiles": [
+    "hardware/watermarking/dynamic watermarking.md",
+    "electronics/Ring oscillator.md",
+    "hardware/images/testing_watermarking2.png",
+    "hardware/images/testing_watermarking.png",
+    "hardware/images",
+    "hardware/watermarking/_watermarking.md",
+    "testing.md",
+    "hardware/watermarking/static watermarking.md",
+    "hardware/watermarking/finite state machine.md",
+    "hardware/VLSI and IP/ASIC.md",
+    "hardware/VLSI and IP/combinational circuits.md",
+    "hardware/VLSI and IP/sequential circuits.md",
+    "electronics/Analog-to-digital converter.md",
+    "electronics/Decoder.md",
+    "electronics/_circuits/full adder.md",
+    "electronics/_circuits/multiplexer.md",
+    "hardware/_intro/vulnerability.md",
+    "hardware/_intro/_hardware security.md",
+    "hardware/_intro/Intellectual property.md",
+    "hardware/_intro/cycle in securing a system.md",
+    "hardware/_intro/supplies chain.md",
+    "hardware/_security.md",
+    "hardware/VLSI and IP/_VLSI - Very Large Scale Integration.md",
+    "hardware/watermarking",
+    "hardware/VLSI and IP/Intellectual Properties.md",
+    "hardware/VLSI and IP/HDL - hardware description language.md",
+    "hardware/VLSI and IP/netlist.md",
+    "hardware/VLSI and IP/transistor.md",
+    "hardware/VLSI and IP/FPGA.md",
+    "hardware/scan-based attacks.md",
+    "hardware/_intro",
+    "hardware/_type of memory/Untitled",
+    "cybersec/crypto",
+    "Recording 20240617232140.webm",
+    "Recording 20240617232149.webm",
+    "cybersec/authentication",
+    "wireless/WLAN/Security",
+    "cybersec/enc/symmetric/stream",
+    "hardware/security/Untitled.canvas"
+  ]
+}
