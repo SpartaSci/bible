@@ -5,7 +5,7 @@ tags:
 >Stands for **Carrier Sense Multiple Access - Collision Detection**
 
 
-![[wireless/WLAN/CSMA-CA#CSMA|CSMA-CA]]
+![[wireless/WLAN - wifi/CSMA-CA#CSMA|CSMA-CA]]
 
 
 

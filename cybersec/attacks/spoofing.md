@@ -15,3 +15,4 @@ is a situation in which a person or program successfully identifies as another b
 
 
 [[cybersec/attacks/ARP spoofing|ARP spoofing]]
+[[wireless/GNS/GNSS spoofing|GNSS spoofing]]

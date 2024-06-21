@@ -19,7 +19,7 @@ interference from other channels
 
 
 # major source of error
-**Thermal noise**:
+**Thermal noise**: ^60ae13
 - disturbs signal in an additive fashion
 - has flat spectral density for all frequencies -> occupies all frequencies (white)
 - is modeled by Gaussian random process

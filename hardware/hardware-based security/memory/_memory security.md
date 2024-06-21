@@ -10,7 +10,7 @@
 [[cybersec/attacks/spoofing|spoofing]]
 [[cybersec/attacks/splicing|splicing]]
 [[cybersec/attacks/replay|replay]]
-[[cybersec/attacks/disturbance|disturbance]]
+[[hardware/attacks/disturbance|disturbance]]
 
 
 # protection

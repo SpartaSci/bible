@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9261f8f03fdbbb51",
+        "id": "7851aa3c2797c6da",
         "type": "tabs",
         "children": [
           {
-            "id": "0a13da7cee35a181",
+            "id": "1f58b00dbbaac158",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hardware/hardware-based security/memory/path ORAM.md",
+                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "3d7ba0ea74ac2c67",
+            "id": "1295e4c63566ad5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cybersec/defence/merkle Tree.md",
+                "file": "wireless/WWAN - mobile/base stations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "6024026a95007319",
+            "id": "4a1f9de5423aa04b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hardware/hardware-based security/_hardware-based security.md",
+                "file": "wireless/WWAN - mobile/mobile stations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,8 +75,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ram  path:hardware  ",
-                "matchingCase": false,
+                "query": "MSC",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hardware/hardware-based security/memory/path ORAM.md",
+                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hardware/hardware-based security/memory/path ORAM.md",
+                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,16 +152,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hardware/hardware-based security/memory/path ORAM.md"
+                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,36 +174,38 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0a13da7cee35a181",
+  "active": "1f58b00dbbaac158",
   "lastOpenFiles": [
-    "wireless/WLAN/CSMA-CA.md",
-    "hardware/hardware-based security/memory/_memory security.md",
-    "hardware/_type of memory/NVM - non volatile memory.md",
-    "hardware/hardware-based security/DSM - distributed shared memory.md",
-    "hardware/hardware-based security/principles of computer architecture.md",
-    "hardware/hardware-based security/_hardware-based security.md",
-    "hardware/_security.md",
+    "wireless/WWAN - mobile/_mobile network.md",
+    "wireless/network/WWAN - Wireless Wide Area Network.md",
+    "wireless/WWAN - mobile/handover.md",
+    "wireless/network/MSC - mobile switching center.md",
+    "wireless/WWAN - mobile/base stations.md",
+    "wireless/WWAN - mobile/mobile stations.md",
+    "wireless/WLAN - wifi/IEEE 802.11.md",
+    "wireless/WLAN - wifi/_wlan.md",
+    "wireless/WPAN - bluetooth/_bluetooth.md",
+    "wireless/WPAN - bluetooth/BLE - Bluetooth Low Energy.md",
+    "wireless/network/RNC - Radio Network Controller.md",
+    "wireless/network/WPAN - Wireless Personal Area Network.md",
+    "wireless/network/WLAN - Wireless Local Area Networks.md",
+    "wireless/_wireless.md",
+    "wireless/mobile/Cellular layout.md",
+    "wireless/network/Network security.md",
+    "wireless/WLAN - wifi/Wireless stations.md",
+    "wireless/WLAN - wifi/Security/_security issues in WLAN.md",
+    "wireless/WLAN - wifi/WIFI.md",
+    "wireless/WLAN - wifi/Security/802.1x.md",
+    "wireless/WLAN - wifi/Security/802.11i.md",
+    "wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy.md",
+    "cybersec/authentication/EAP - Extensible Authentication Protocol.md",
+    "wireless/WLAN - wifi/Access point.md",
+    "wireless/network/_wireless communication network.md",
+    "wireless/WPAN - bluetooth/bluetooth security.md",
+    "cybersec/_properties",
+    "wireless/WPAN - bluetooth",
     "hardware/hardware-based security/memory",
-    "hardware/scan-based attacks.md",
-    "hardware/Test-infrastructure-based Attacks.md",
-    "hardware/watermarking/_watermarking.md",
-    "hardware/watermarking/testing.md",
-    "hardware/watermarking/dynamic watermarking.md",
-    "hardware/_type of memory/CAM - Content-addressable memory.md",
-    "hardware/_type of memory/SAM - sequential access memory.md",
-    "hardware/hardware-based security/memory/path ORAM.md",
-    "cybersec/defence/merkle Tree.md",
-    "cybersec/attacks/traffic analysis.md",
-    "hardware/hardware trust/TPM - Trusted Platform Module.md",
-    "hardware/hardware trust/Protected Location.md",
-    "hardware/security/CRTM - Core Root of Trust for Measurement.md",
-    "hardware/security/Boot loader.md",
-    "hardware/hardware trust/_hardware trust.md",
     "hardware/hardware trust",
-    "hardware/hardware trust/integrity measurements and reporting.md",
-    "cybersec/attacks/replay.md",
-    "cybersec/attacks/disturbance.md",
-    "hardware/hardware-based security/software measurement.md",
     "hardware/PUFs",
     "hardware/hardware trojan",
     "hardware/hardware-based security",
@@ -212,8 +214,6 @@
     "hardware/images/testing_watermarking.png",
     "hardware/images",
     "hardware/watermarking",
-    "hardware/_intro",
-    "hardware/_type of memory/Untitled",
     "hardware/security/Untitled.canvas"
   ]
 }

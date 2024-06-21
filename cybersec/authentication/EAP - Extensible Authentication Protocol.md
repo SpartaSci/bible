@@ -8,7 +8,7 @@ aliases:
 
 > carrier protocol designed to transport the messages of real authentication protocols (e.g. TLS)
 
-[[wireless/WLAN/Security/802.1x|802.1x]]
+[[wireless/WLAN - wifi/Security/802.1x|802.1x]]
 
 Four type of messages:
 - **EAP request** - carrier messages from the *supplicant* to the *authentication server*
@@ -18,10 +18,10 @@ Four type of messages:
 
 
 # EAPOL - EAP over LAN 
-[[wireless/WLAN/Security/802.1x|802.1x]]
+[[wireless/WLAN - wifi/Security/802.1x|802.1x]]
 Encapsulate EAP messages into LAN protocols (e.g. ethernet)
 
-EAPOL is used to carry EAP messages between the [[wireless/WLAN/WIFI|STA]] and the [[wireless/WLAN/WIFI|AP]]
+EAPOL is used to carry EAP messages between the [[wireless/WLAN - wifi/Wireless stations|STA]] and the [[wireless/WLAN - wifi/Access point|AP]]
 
 # RADIUS
 

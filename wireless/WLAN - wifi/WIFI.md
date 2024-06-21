@@ -4,13 +4,11 @@ tags:
   - wireless
 aliases:
   - "802.11"
-  - STA
-  - AP
 ---
 > The core WIFI technology is based on IEEE 802.11 standards
 
 Wi-Fi supports **infrastructure-based mode**: 
-- comprises of an **Access Point** (AP) and several wireless stations (STAs) ^1de188
+- comprises of an **Access Point** ([[wireless/WLAN - wifi/Access point|AP]]) and several **wireless stations** ([[wireless/WLAN - wifi/Wireless stations|STAs]])
 - All STAs only communicate with the AP
 - when two stations exchange data, all the traffic is sent twice on the wireless channel
 - two stations cannot talk directly with each other because of the [Hidden Terminal](https://en.wikipedia.org/wiki/Hidden_node_problem) problem

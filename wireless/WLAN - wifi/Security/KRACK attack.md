@@ -3,14 +3,14 @@ tags:
   - attack
   - replay
 ---
-Key Re-installation Attack target the [[wireless/WLAN/Security/802.11i#4-way handshake|4-way handshake]] 
-- in normal operation when a client joins a network and triggers the handshake, a key is [[wireless/WLAN/Security/802.11i#^f6fffd|installed]] after receiving the message 3 
+Key Re-installation Attack target the [[wireless/WLAN - wifi/Security/802.11i#4-way handshake|4-way handshake]] 
+- in normal operation when a client joins a network and triggers the handshake, a key is [[wireless/WLAN - wifi/Security/802.11i#^f6fffd|installed]] after receiving the message 3 
 - Message 3 may be re-transmitted multiple times due to unreliable network conditions
 - Each time the client receives a copy of message 3, it re-installs the same **session key** with incremental nonce and a replay counter used by the encryption algorithm
 - Any attacker can force nonce resets by collecting and replying message 3
 - with nonce resets an attacker can decrypt packets and launch attacks such as [[cybersec/attacks/replay|replay attacks]] and forcery
 
-KRACK may also be launched against [[wireless/WLAN/Security/802.11i#SRN - Robust Security Network Association|group keys]] in WPA2
+KRACK may also be launched against [[wireless/WLAN - wifi/Security/802.11i#SRN - Robust Security Network Association|group keys]] in WPA2
 
 
 

@@ -14,5 +14,5 @@ A **hash function** is any [function](https://en.wikipedia.org/wiki/Function_
 
 [[replay]] (with counter)
 
-[[disturbance]]
+[[hardware/attacks/disturbance]]
 

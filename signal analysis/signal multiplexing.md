@@ -1,3 +1,12 @@
+---
+aliases:
+  - FDM
+  - FDMA
+  - TDM
+  - TDMA
+  - CDM
+  - CDMA
+---
 >*Multiplexing* deals with **combining** signals all together, while *multiple access* deals with allowing **multiple users** to access and share a communication medium
 
 Multiplexing -> refer to signals
@@ -54,7 +63,7 @@ The **synchronous TDM** presents the following characteristics:
 It present the following characteristics:
 - each channels has **unique code**
 - all channels use the same spectrum at the same time 
-- implemented using spread spectrum technology
+- implemented using [[signal analysis/spread spectrum|spread spectrum]] technology
 	- each sender is assigned a unique binary code $c_i$
 	- binary codes are orthogonal vectors
 	- therefore, they can be summed together and separated without interference

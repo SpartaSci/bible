@@ -12,9 +12,10 @@ phisdhing
 
 replay attack
 
+[[cybersec/attacks/jamming|jamming]]
 reply attack
 
-spoofing
+[[cybersec/attacks/spoofing|spoofing]]
 
 snooping sniffing eardropping
 

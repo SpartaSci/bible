@@ -2,6 +2,7 @@
 tags:
   - network
   - wireless
+  - WWAN
 aliases:
   - RNC
 ---

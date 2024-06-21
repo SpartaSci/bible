@@ -7,7 +7,6 @@ tags:
 aliases:
   - WEP
 ---
-[[wireless/WLAN/WIFI|802.11]]
 
 # WEP goals
 
@@ -102,5 +101,5 @@ IV reuse, IV is long 24 bits, after $2^{24}$ messages to encrypt, a previously u
 
 **Weak shared key**: for some seed values, called weak key, the beginning of the RC4 output is not random, therefore, the first few bytes of the output reveals a lot of information about the key.
 
-[[wireless/WLAN/Security/Chop Chop attack|Chop Chop attack]]
+[[wireless/WLAN - wifi/Security/Chop Chop attack|Chop Chop attack]]
 

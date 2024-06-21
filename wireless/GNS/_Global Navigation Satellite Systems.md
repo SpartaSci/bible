@@ -12,7 +12,7 @@ A **position** is defined by longitude, latitude and altitude
 # space segment
 > GNSS satellites continuously **transmit** navigation signals in different frequencies in [L band](https://en.wikipedia.org/wiki/L_band)
 
-These signals contain **spreading codes** ([*spreads the input data across a wider frequency range compared to the input frequency*](https://www.ni.com/en/solutions/aerospace-defense/communications-navigation/understanding-spread-spectrum-for-communications.html)) and **navigation data** to allow the users to compute the **travelling time** from satellite to receiver and the **satellite coordinates** at any [epoch](https://en.wikipedia.org/wiki/Epoch_(computing))
+These signals contain [[signal analysis/spread spectrum|spreading codes]] (*spreads the input data across a wider frequency range compared to the input frequency*) and **navigation data** to allow the users to compute the **travelling time** from satellite to receiver and the **satellite coordinates** at any [epoch](https://en.wikipedia.org/wiki/Epoch_(computing))
 
 # control segment
 > a network of station, distributed all around of the Earth in order to **monitor** the status of the satellites ans of the signals  
@@ -29,8 +29,9 @@ core functionalities:
 
 
 [[wireless/GNS/Multilateration|Multilateration]]
-![[wireless/GNS/Multilateration#def|Multilateration]]
+
+[[wireless/GNS/GNSS Threats|GNSS Threats]] -> [[wireless/GNS/GNSS jamming|GNSS jamming]]
+			 -> [[wireless/GNS/GNSS spoofing|GNSS spoofing]]
+			 
 
 
-# threat
-![[wireless/GNS/GNSS Threats|GNSS Threats]]

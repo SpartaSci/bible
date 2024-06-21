@@ -3,10 +3,11 @@ tags:
   - standard
   - wireless
   - communication
+  - WLAN
 ---
 > IEEE 802.11 is part 802, the IEEE standard for wireless communication (WLAN)
 
-[[wireless/WLAN/WIFI|WIFI]]
+802.11 is the same of [[wireless/WLAN - wifi/WIFI|WIFI]]
 
 It offer **half-duplex** communication channel and works on 2.4 GHz [ISM](https://en.wikipedia.org/wiki/ISM_radio_band) and 5 GHz [U-NII](https://en.wikipedia.org/wiki/Unlicensed_National_Information_Infrastructure) bands. 
 
@@ -16,7 +17,7 @@ Before a mobile station can  send traffic through an AP, it must be in the appro
 - authenticated but not yet associated
 - authenticated and associated
 
-> Data exchange can only happen after the authentication and association are completed using the [[wireless/WLAN/CSMA-CA|CSMA-CA protocol]]
+> Data exchange can only happen after the authentication and association are completed using the [[wireless/WLAN - wifi/CSMA-CA|CSMA-CA protocol]]
 
 
 1. **Beacons** are frames **broadcast** (at regular intervals) by the AP in order to advertise the SSID of the WLAN to wireless clients. ^e1b824
@@ -38,10 +39,10 @@ No data encryption or security is available in this stage. It is initiated by th
 
 1. an *authentication request* is sent from the STA that contains the station ID, typically the MAC address
 2. an *authentication response* from the AP with a success or failure message
-Shared key authentication: a shared key, or passphrase, is manually set on both the mobile device and the AP. ([[wireless/WLAN/Security/WEP - Wired Equivalent Privacy|WEP]],[[wireless/WLAN/Security/802.11i|WPA]])
+Shared key authentication: a shared key, or passphrase, is manually set on both the mobile device and the AP. ([[wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy|WEP]],[[wireless/WLAN - wifi/Security/802.11i|WPA]])
 
 # association
->once authentication is complete, a mobile devices ([[wireless/WLAN/WIFI#^1de188|STA]]) can associate and register with **one** AP to gain full access to the network.
+>once authentication is complete, a mobile devices ([[wireless/WLAN - wifi/Wireless stations|STA]]) can associate and register with **one** [[wireless/WLAN - wifi/Access point|AP]] to gain full access to the network.
 
 Allow the AP to record each mobile device so that frames are properly deliverd. 
 Association only occurs on **wireless infrastructure networks**, not in peer-to-peer mode.
@@ -55,7 +56,7 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 # CSMA/CA
 
 
-[[wireless/WLAN/CSMA-CA|CSMA-CA]]
+[[wireless/WLAN - wifi/CSMA-CA|CSMA-CA]]
 
 
 
@@ -69,7 +70,7 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 - node inform AP that is going into *sleep mode* until next **beacon** frame
 - AP knows not to transmit frames to this node, and will buffer them. Node will wake up before next **beacon** frame
 
-**TIM** (traffic indication map) is a period packet sent by AP (with the [[wireless/WLAN/IEEE 802.11|beacon]]) to notify client of buffered data, stating to which nodes the AP needs to send data, therefore, those nodes need to stay awake, it relies on synchronization of packets so client is awake then the TIM is sent.
+**TIM** (traffic indication map) is a period packet sent by AP (with the [[wireless/WLAN - wifi/IEEE 802.11|beacon]]) to notify client of buffered data, stating to which nodes the AP needs to send data, therefore, those nodes need to stay awake, it relies on synchronization of packets so client is awake then the TIM is sent.
 
 
 # power saving attacks

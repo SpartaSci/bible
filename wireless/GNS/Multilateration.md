@@ -2,7 +2,7 @@
 tags:
   - gnss
 ---
-# def
+# definition
 > the end goal of GNSS is to **estimate** the 3 coordinates of the receiver
 
 
@@ -52,7 +52,7 @@ $$
 $$
 $(x _ j,y _ j,z _ j)$  Satellite position: center of the pseudo-sphere
 
-$\rho _ j$         Pseudorange: radius of the pseudo-sphere
+$\rho _ j$ Pseudorange: radius of the pseudo-sphere
 
 $b _ {ut}=c \cdot \delta t _ u$  Clock bias
 

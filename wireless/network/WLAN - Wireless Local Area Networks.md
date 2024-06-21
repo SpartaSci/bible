@@ -8,9 +8,9 @@ aliases:
 > WLAN are **infrastructure based** wireless communication systems.
 
 They are normally built on top of a wired local area network (LAN).
-Typical WLAN settings is a home WIFI.
+Typical [[wireless/WLAN - wifi/_wlan|WLAN]] settings is a home WIFI.
 
-**Basic service set BSS**: one AP and multiple user devices
+**Basic service set BSS**: one [[wireless/WLAN - wifi/Access point|AP]] and multiple [[wireless/WLAN - wifi/Wireless stations|user devices]]
 
 **Extended service set ESS**: support multiple BSSs, multiple APs at the same time, similar to as traditional Ethernet based LAN ^244be9
 - All APs are interconnected, in most cases through a wired connection

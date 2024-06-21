@@ -5,13 +5,13 @@ tags:
   - communication
   - DoS
 ---
-[[wireless/WLAN/_wlan|_wlan]]
+[[wireless/WLAN - wifi/_wlan|_wlan]]
 
 # DoS
 > DoS is the act of **denying** a computer user of a particular service, typically by *flooding* a client with more traffic that it can handle
 
 
-[[wireless/WLAN/WIFI|802.11]] is more vulnerable than 802.3 to DoS attacks because of the **shared medium**
+[[wireless/WLAN - wifi/IEEE 802.11|802.11]] is more vulnerable than 802.3 to DoS attacks because of the **shared medium**
 
 **L1**: Radio Frequency Attacks or Jamming the wireless spectrum. The disruption occurs when SNR ratio reach a certain level
 
@@ -28,14 +28,14 @@ The frames are **not authenticated**, an attacker change its MAC address and [[c
 
 
 ## disassociation attack
-a client can authenticate with multiple [[wireless/WLAN/WIFI#^1de188|APs]] but **associate** with one to allow the correct AP to forward packets. Associate frames are **NOT AUTHENTICATED**.
-802.11 provides a *disassociation message* like the *deauthentication message*.
+a client [[wireless/WLAN - wifi/Wireless stations|STA]] can authenticate with multiple [[wireless/WLAN - wifi/Access point|APs]] but **associate** with one to allow the correct AP to forward packets. Associate frames are **NOT AUTHENTICATED**.
+[[wireless/WLAN - wifi/IEEE 802.11|802.11]] provides a *disassociation message* like the *deauthentication message*.
 
 The vulnerability stands in **spoofing a message causing the AP to disassociate the client** 
 
 
 ## deauthentication attack
-during the authentication procedure after selecting an AP for communication, the STAs must authenticate themselves to the AP with their MAC address. 
+during the authentication procedure after selecting an [[wireless/WLAN - wifi/Access point|AP]] for communication, the [[wireless/WLAN - wifi/Wireless stations|STAs]] must authenticate themselves to the AP with their MAC address. 
 There is a specific message allowing clients to explicitly deauthenticate from the AP.
 
 The vulnerability stands in the fact that an attack can [[cybersec/attacks/spoofing|spoof]] **the deauthentication message** causing the communication between AP and the legitimate client to suspend, hence, causing a DoS. The result is that the client **must re-authenticate** to resume communication with AP
@@ -67,14 +67,14 @@ A possible signature could also be the noise: is the signal strength, therefore 
 
 # Attacks on CSMA-CD
 
-[[wireless/WLAN/CSMA-CD|CSMA-CD]]
+[[wireless/WLAN - wifi/CSMA-CD|CSMA-CD]]
 
 # Attack on CMSA-CA
-[[wireless/WLAN/CSMA-CA#Attack on RTS/CTS virtual carrier sense|CSMA-CA]]
+[[wireless/WLAN - wifi/CSMA-CA#Attack on RTS/CTS virtual carrier sense|CSMA-CA]]
 
 # Attacks on Power Saving in 802.11
 
-[[wireless/WLAN/IEEE 802.11#power saving attacks|IEEE 802.11 power saving]]
+[[wireless/WLAN - wifi/IEEE 802.11#power saving attacks|IEEE 802.11 power saving]]
 
 
 
@@ -84,20 +84,20 @@ A possible signature could also be the noise: is the signal strength, therefore 
 
 **Static IP addresses are useless**. Cause IP addresses are sent in cleartext, they can be spoofed and it is easy to find and use a valid IP address
 
-**SSID Hiding is useless**. [[wireless/WLAN/IEEE 802.11#^e1b824|Beacons]] can be suppressed, but the SSID is still sent in cleartext in the *probe request and response* and in the association response. Remember that in the authentication phase there is the information regarding the SSID.
+**SSID Hiding is useless**. [[wireless/WLAN - wifi/IEEE 802.11#^e1b824|Beacons]] can be suppressed, but the SSID is still sent in cleartext in the *probe request and response* and in the association response. Remember that in the authentication phase there is the information regarding the SSID.
 
 **Smart antenna placement and hiding is useless**. As the attacker have infinite resource and use much more powerful device than yours
 
 
 The only solution is **serious cryptography**
 
-[[wireless/WLAN/Security/WEP - Wired Equivalent Privacy|WEP]] --> [[wireless/WLAN/Security/Chop Chop attack|Chop Chop attack]]
+[[wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy|WEP]] --> [[wireless/WLAN - wifi/Security/Chop Chop attack|Chop Chop attack]]
 
-[[wireless/WLAN/Security/802.1x|802.1x]]
-[[wireless/WLAN/Security/802.11i|802.11i]]   -> [[wireless/WLAN/Security/KRACK attack|KRACK attack]]
+[[wireless/WLAN - wifi/Security/802.1x|802.1x]]
+[[wireless/WLAN - wifi/Security/802.11i|802.11i]]   -> [[wireless/WLAN - wifi/Security/KRACK attack|KRACK attack]]
 
 
 
-[[wireless/WLAN/Security/OWE - Opportunistic Wireless Encryption|OWE - Opportunistic Wireless Encryption]]
+[[wireless/WLAN - wifi/Security/OWE - Opportunistic Wireless Encryption|OWE - Opportunistic Wireless Encryption]]
 
-[[wireless/WLAN/Security/WP3|WP3]]
+[[wireless/WLAN - wifi/Security/WP3|WP3]]

@@ -22,7 +22,7 @@ Security at physical layer is not intended to replace cryptographic security, bu
 
 ## code approaches
 - error correction coding: advanced channel coding and **AES** cryptosystem for secure communication
-- [spread spectrum coding](https://www.ni.com/en/solutions/aerospace-defense/communications-navigation/understanding-spread-spectrum-for-communications.html): direct-sequence [CDMA](https://en.wikipedia.org/wiki/Code-division_multiple_access) and Frequency Hopping Spread Spectrum ([FHSS](https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum))
+- [[signal analysis/spread spectrum|spread spectrum coding]]: direct-sequence [[signal analysis/signal multiplexing#CDM - Code Division Multiplexing|CDMA]] and [[wireless/WPAN - bluetooth/Frequency hopping|Frequency hopping]] Spread Spectrum ([FHSS](https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum))
 
 ## power approaches
 - directional antennas: improved spatial reuse and data availability using [beamforming](https://en.wikipedia.org/wiki/Beamforming)

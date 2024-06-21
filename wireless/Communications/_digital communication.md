@@ -35,3 +35,9 @@ different types if disturbance:
 [[wireless/Communications/source coding|source coding]]
 
 [[wireless/Communications/channel coding|channel coding]] -> [[wireless/Communications/error detection and correction|error detection and correction]]
+
+
+[[wireless/Communications/security attacks|security attacks]]
+
+[[wireless/Communications/physical-layer security|physical-layer security]]
+

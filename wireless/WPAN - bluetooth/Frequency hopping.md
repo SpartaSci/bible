@@ -1,0 +1,1 @@
+>  devices move from one channel to another, in order to no interfere with other devices in the piconet
