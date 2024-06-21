@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f58b00dbbaac158",
+            "id": "ee2861bfffddbe82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
+                "file": "wireless/WWAN - mobile/handover.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "1295e4c63566ad5c",
+            "id": "53631a1e34968123",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wireless/WWAN - mobile/base stations.md",
+                "file": "wireless/network/WWAN - Wireless Wide Area Network.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4a1f9de5423aa04b",
+            "id": "e07eb74a669b7d13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wireless/WWAN - mobile/mobile stations.md",
+                "file": "wireless/network/WWAN - Wireless Wide Area Network.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.50484466552734
+    "width": 299.50484466552734,
+    "collapsed": true
   },
   "right": {
     "id": "275f5e0309e7df49",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
+                "file": "wireless/WWAN - mobile/handover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md",
+                "file": "wireless/WWAN - mobile/handover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wireless/WLAN - wifi/Security/Chop Chop attack.md"
+                "file": "wireless/WWAN - mobile/handover.md"
               }
             }
           }
@@ -174,34 +175,34 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1f58b00dbbaac158",
+  "active": "ee2861bfffddbe82",
   "lastOpenFiles": [
     "wireless/WWAN - mobile/_mobile network.md",
-    "wireless/network/WWAN - Wireless Wide Area Network.md",
     "wireless/WWAN - mobile/handover.md",
-    "wireless/network/MSC - mobile switching center.md",
+    "wireless/network/WWAN - Wireless Wide Area Network.md",
+    "wireless/network/RNC - Radio Network Controller.md",
     "wireless/WWAN - mobile/base stations.md",
     "wireless/WWAN - mobile/mobile stations.md",
-    "wireless/WLAN - wifi/IEEE 802.11.md",
+    "wireless/WLAN - wifi/Wireless stations.md",
     "wireless/WLAN - wifi/_wlan.md",
+    "wireless/WLAN - wifi/Security/802.1x.md",
+    "wireless/WLAN - wifi/Access point.md",
+    "wireless/network/MSC - mobile switching center.md",
+    "wireless/WLAN - wifi/Security/Chop Chop attack.md",
+    "wireless/WLAN - wifi/IEEE 802.11.md",
     "wireless/WPAN - bluetooth/_bluetooth.md",
     "wireless/WPAN - bluetooth/BLE - Bluetooth Low Energy.md",
-    "wireless/network/RNC - Radio Network Controller.md",
     "wireless/network/WPAN - Wireless Personal Area Network.md",
     "wireless/network/WLAN - Wireless Local Area Networks.md",
     "wireless/_wireless.md",
     "wireless/mobile/Cellular layout.md",
     "wireless/network/Network security.md",
-    "wireless/WLAN - wifi/Wireless stations.md",
     "wireless/WLAN - wifi/Security/_security issues in WLAN.md",
     "wireless/WLAN - wifi/WIFI.md",
-    "wireless/WLAN - wifi/Security/802.1x.md",
     "wireless/WLAN - wifi/Security/802.11i.md",
     "wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy.md",
     "cybersec/authentication/EAP - Extensible Authentication Protocol.md",
-    "wireless/WLAN - wifi/Access point.md",
     "wireless/network/_wireless communication network.md",
-    "wireless/WPAN - bluetooth/bluetooth security.md",
     "cybersec/_properties",
     "wireless/WPAN - bluetooth",
     "hardware/hardware-based security/memory",

@@ -19,5 +19,4 @@ The process is completely controlled by the network that adapts routing and comm
 6. **Data and voice transfer**: once the MS is successfully handed over the new cell, *data and voice traffic* are transferred to the new cell
 7. **Handover confirmation**: after the handover is completed, the MS sends a *handover confirmation*
 8. **Resource Release**: the resources allocated in the old cell for the call are released once the handover is confirmed
-9. **Re-Establishment of Connections**: if the handover process results in a change in the [[wireless/network/MSC - mobile switching center|MSC]]
-10. 
+9. **Re-Establishment of Connections**: if the handover process results in a change in the [[wireless/network/MSC - mobile switching center|MSC]], new connections are established with the new controllers.
