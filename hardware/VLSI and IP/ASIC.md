@@ -3,9 +3,8 @@
 
 # ASIC Place & Route
 
->**Floorplanning**: this step involves deciding how to organize the available space on our piece of silicon to implement the circuits
+>[[hardware/VLSI and IP/floorplanning|floorplanning]]: this step involves deciding how to organize the available space on our piece of silicon to implement the circuits
 
-^039a08
 
 - position of the pin
 - power supply information
@@ -13,9 +12,9 @@
 - area for routing
 
 
->**Placement**: once the organization is defined, this step involves placing the cells properly
+>[[hardware/VLSI and IP/placement|placement]]: once the organization is defined, this step involves placing the cells properly
 
->**Routing**: this step involves connecting the placed cells together
+>[[hardware/VLSI and IP/routing|routing]]: this step involves connecting the placed cells together
 
 
 [[hardware/watermarking/static watermarking#physical synthesis P&R level|static watermarking]]

@@ -7,7 +7,7 @@ tags:
 > general concept of security at physical layer	
 
 
-[[hardware/_intro/Intellectual property|Intellectual property]]
+[[hardware/_intro/chain/Intellectual property|Intellectual property]]
 
 
 > **Trust issues** refer to situation where the **legitimacy** of the hardware cannot be confirmed, or when the source of information about attacks may not be the original hardware
@@ -27,13 +27,13 @@ A threat indicates what you need to check
 > The act of a human **exploiting** the vulnerability in the system
 Attack Surface: the sum of all possible risk exposures.
 
-
+[[hardware/attack taxonomy/_hardware attack taxonomy|_hardware attack taxonomy]]
 # aspect
-#confidentiality: the related assets are only accessed by authorized parties
+[[cybersec/_properties/confidentiality|confidentiality]]: the related assets are only accessed by authorized parties
 
-#integrity: the asset is only modified by authorized parties
+[[cybersec/_properties/integrity|integrity]]: the asset is only modified by authorized parties
 
-#availability: the asset is accessible to authorized parties at appropriate times
+[[cybersec/_properties/availability|availability]]: the asset is accessible to authorized parties at appropriate times
 
 
 [[hardware/_intro/cycle in securing a system|cycle in securing a system]]

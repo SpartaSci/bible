@@ -14,3 +14,11 @@ represent the message as an integer m in [0,n-1]
 
 **encryption** -> $c = m^e \mod n$
 **decryption** -> $m = c^d \mod n$
+
+do to modular exponentiation we can multiple $e$ times, it inefficient
+so we use [Square and Multiplu](https://www.practicalnetworking.net/stand-alone/square-and-multiply/)
+
+scan to exponent bits left to right
+1. in Every iteration we **square**
+2. if current bit is 1 we also **multiply by x**
+

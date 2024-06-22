@@ -1,6 +1,6 @@
 > run the design with specific input pattern
 
-this involves making the IC operate in a specific configuration to verify the watermark without physical inspection
+this involves making the IC operate in a specific configuration to verify the [[hardware/watermarking/_watermarking|watermark]] without physical inspection
 
 Is **less expensive**
 
@@ -16,15 +16,15 @@ We can add the watermark either to **states** or to **transition**
 
 # Testing based
 To perform either online or offline [[hardware/watermarking/testing|test]] of IC, a well-known approach relies on special types of **flip-flop** that can be **accessed externally**.
-This method is usually referred to as the **boundary scan** approach. 
+This method is usually referred to as the **boundary scan** approach. [[hardware/attack taxonomy/test-infrastructure/scan chain|scan chain]]
 
 It involves placing flip-flops throughout the circuit and adding a **multiplexer** **(TC)** to each flip-flop. This allows you to decide if the input to the flip-flop is the actual input **(D)** or an output from another flip-flop **(SD)**. 
 
 As the designer, you know exactly which flip-flops you are connecting (red line and blue line) to others, enabling effective testing and potential watermarking
 TC = 0 -> normal mode
 TC = 1 -> test mode
-![[hardware/images/testing_watermarking.png]]
-![[hardware/images/testing_watermarking2.png]]
+![[hardware/_images/testing_watermarking.png]]
+![[hardware/_images/testing_watermarking2.png]]
  
 Flip-flop have two output Q and Q', you choose which one to use, and manipulate the scan chain, creating a unique signature. 
 In test  you can inject a sequence of bits through the chain of flip-flops and observe the effect on your circuit to ensure it reacts correctly, following a certain patterns
@@ -33,7 +33,7 @@ In test  you can inject a sequence of bits through the chain of flip-flops and o
 
 
 # Side channel based
-
+[[hardware/attack taxonomy/side channel/_side channel|_side channel]]
 
 Often based on adding a power consumption signature, it should be below the noise floor, otherwise the power consumption goes up and became easily detectable. This add must not impact the circuit's functionality 
 

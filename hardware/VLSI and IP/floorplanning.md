@@ -1,0 +1,1 @@
+>**Floorplanning**: this step involves deciding how to organize the available space on our piece of silicon to implement the circuits, [[hardware/VLSI and IP/RTL - register transfer level|RTL]] of the chip is assigned togross regions of the chip

@@ -1,0 +1,6 @@
+---
+tags:
+  - integrity
+aliases:
+  - ECC
+---

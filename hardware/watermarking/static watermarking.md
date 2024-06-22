@@ -48,7 +48,10 @@ The idea here is not just adding further logic in these paths but rather relying
 
 Assume that the logic minimization has already been performed by the logic synthesizer. At this point, the technology mapping is constrained to *physical blocks* with at most $K$ inputs and *boolean function* with at most $M$ product terms
 
-AAA da finire
+We can add a **watermark** by chopping some connection in the the circuit and give it back to the [[hardware/VLSI and IP/logic synthesis|synthesizer]] with new constraint $K,M$ to perform a new mapping. The new layout would be different from the standard output
+[paper](https://dl.acm.org/doi/pdf/10.1145/337292.337328)
+
+
 
 
 ## physical synthesis P&R level

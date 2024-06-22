@@ -23,7 +23,7 @@ It is usually combined with public key encryption, so the information transmitte
 Protects private information by binding it to *platform configuration information* including the software and the hardware being used
 
 ## protect from TOC-TOU
-Continuous monitoring and signing, is a potential solution to [[hardware/attacks/TOC-TOU|TOC-TOU]]
+Continuous monitoring and signing, is a potential solution to [[hardware/hardware-based security/TOC-TOU|TOC-TOU]]
 
 Constantly measure the system and look for anomalies
 Requires knowing the correct and expected behavior of the system

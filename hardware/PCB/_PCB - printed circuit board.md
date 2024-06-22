@@ -34,7 +34,7 @@ frequently used serial communication protocols
 **authentication**: Use private instructions in you FSM, requiring a key to 
 access internal functions
 
-**Physical access restriction**: increase PCB design resilience against [[hardware/attacks/reverse engineering|reverse engineering]], [[hardware/attacks/probing|probing]], [[hardware/attacks/tampering|tampering]]([[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]) making difficult to access the pins of the IC. 
+**Physical access restriction**: increase PCB design resilience against [[hardware/attack taxonomy/invasive attacks/reverse engineering|reverse engineering]], [[hardware/attack taxonomy/invasive attacks/microprobing|microprobing]], [[hardware/_intro/tampering|tampering]]([[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]) making difficult to access the pins of the IC. 
 Example:  ^900a18
 - use BGA (ball grid array)
 - place delicate information-carrying wires inside the board (multilayer) 

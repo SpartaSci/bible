@@ -1,0 +1,1 @@
+>**Scan chain** is a technique used in design for testing. The objective is to make testing easier by providing a simple way to **set and observe** every flip-flop in an IC

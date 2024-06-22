@@ -3,7 +3,12 @@
 
 # FPGA Place & Route
 
-We have less to do in respect to [[hardware/VLSI and IP/ASIC#^039a08|floorplanning]] since the structure is predefined by the manufacturer.
+We have less to do in respect to [[hardware/VLSI and IP/floorplanning|floorplanning]] since the structure is predefined by the manufacturer.
+
+[[hardware/VLSI and IP/placement|placement]]
+
+[[hardware/VLSI and IP/routing|routing]]
+
 
 The result is a **bit-stream** which configures the [[hardware/VLSI and IP/_VLSI - Very Large Scale Integration#Programmable logic devices (PLDs)|PLD]] according with the result obtained after P&R
 

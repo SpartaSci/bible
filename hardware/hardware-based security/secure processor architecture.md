@@ -10,8 +10,8 @@ Protected pieces of *code and data* are now called **Enclaves**. Also Trusted So
 
 Goal is isolate *secure software* from *un-trusted software*:
 - architecture state
-- Micro-architectural state ([[hardware/attacks/spectre|spectre]])
-- spatial or temporal sharing of HW ([[hardware/attacks/side channel|side channel]])
+- Micro-architectural state ([[hardware/attack taxonomy/side channel/spectre|spectre]])
+- spatial or temporal sharing of HW ([[hardware/attack taxonomy/side channel/_side channel|_side channel]])
 
 # baseline problem
 The **baseline** of processor HW is un-secure, since considers all the components as trusted. Information can be extracted/modified from the memory, [[cybersec/attacks/snooping|snooping]] on the bus, malicious devices on the I/O interfaces.

@@ -10,7 +10,7 @@
 [[cybersec/attacks/spoofing|spoofing]]
 [[cybersec/attacks/splicing|splicing]]
 [[cybersec/attacks/replay|replay]]
-[[hardware/attacks/disturbance|disturbance]]
+[[hardware/hardware-based security/disturbance|disturbance]]
 
 
 # protection
@@ -53,6 +53,6 @@ It is easier in [[hardware/hardware-based security/SMP - symmetric multiprocessi
 
 
 # consideration 
-Security consideration about: [[hardware/_type of memory/NVM - non volatile memory|NVM]] 
+Security consideration about: [[electronics/_type of memory/NVM - non volatile memory|NVM]] 
 
 **data remanance**

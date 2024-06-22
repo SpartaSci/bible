@@ -10,6 +10,9 @@ aliases:
 
 Unlike [[wireless/Communications/ARQ - automatic repeat request|ARQ]], FEC does not require a backward channel and is suitable for unidirectional communications
 
+
+
+
 example block codes and convolutional codes
 
 # block codes

@@ -1,3 +1,7 @@
+---
+aliases:
+  - FSM
+---
 
 > A *finite state machine* is a machine that evolves through a finite number of states. Each time we want to describe a FSM in an accurate and complete way, we can represent its behaviour using a *state transition diagram*. In which, each state is represented as node, and the edges represent the transitions.
 
