@@ -1,4 +1,3 @@
-[[hardware/_intro/chain/supplies chain|supplies chain]]
 [[hardware/_intro/chain/design flow|design flow]]
 
 [[hardware/VLSI and IP/Intellectual Properties|IP]] soft firm hard

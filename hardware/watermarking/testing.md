@@ -2,7 +2,8 @@
 tags:
   - hardware
 ---
-[[hardware/_intro/chain/supplies chain|supplies chain]]
+[[hardware/_intro/chain/design flow|design flow]]
+
 
 It is very important when manufacturing an IC to ensure the system can be tested to verify its functionality
 

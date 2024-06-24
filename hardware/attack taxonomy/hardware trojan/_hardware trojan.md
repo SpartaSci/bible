@@ -25,7 +25,7 @@ characteristic
 
 **pre-silicon** design, test and tool: untrusted 3rd party [[hardware/VLSI and IP/Intellectual Properties|IPs]], untrusted tools, untrusted libraries ...
 
-**silicon** untrusted [[hardware/_intro/chain/supplies chain|foundries]]: malicious circuit insertions, [[electronics/Ring oscillator|Ring oscillator trojan]], [[hardware/_intro/vulnerability#^f591a4|backdoor circuits]]
+**silicon** untrusted [[hardware/_intro/chain/fabrication|foundry]]: malicious circuit insertions, [[electronics/Ring oscillator|Ring oscillator trojan]], [[hardware/_intro/vulnerability#^f591a4|backdoor circuits]]
 
 **post-silicon** malicious packaging elements: disguise a [[hardware/conterfeit/_counterfeiting|malicious chip]] as a legitimate one
 

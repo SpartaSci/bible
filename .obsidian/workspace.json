@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hardware/_intro/_hardware security.md",
+                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.50484466552734,
-    "collapsed": true
+    "width": 299.50484466552734
   },
   "right": {
     "id": "275f5e0309e7df49",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hardware/_intro/_hardware security.md",
+                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hardware/_intro/_hardware security.md",
+                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hardware/_intro/_hardware security.md"
+                "file": "hardware/attack taxonomy/side channel/timing attacks.md"
               }
             }
           }
@@ -135,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,6 +148,17 @@
   },
   "active": "c02dc6ed945e4536",
   "lastOpenFiles": [
+    "hardware/attack taxonomy/side channel/_side channel.md",
+    "hardware/_security.md",
+    "hardware/attack taxonomy/invasive attacks/reverse engineering.md",
+    "hardware/_intro/chain/IP - general.md",
+    "hardware/_intro/chain/supplies chain.md",
+    "hardware/attack taxonomy/hardware trojan/_hardware trojan.md",
+    "hardware/hardware-based security/TCB - trusted computing base.md",
+    "hardware/attack taxonomy/hardware trojan/trojan in the chain.md",
+    "hardware/watermarking/testing.md",
+    "hardware/_intro/_hardware security.md",
+    "hardware/_intro/cycle in securing a system.md",
     "wireless/WPAN - bluetooth/security/pairing/_pairing.md",
     "wireless/WPAN - bluetooth/security/bluetooth Privacy.md",
     "wireless/WPAN - bluetooth/security/_bluetooth security.md",
@@ -159,7 +168,6 @@
     "wireless/WPAN - bluetooth/security/pairing/BLE secure connections.md",
     "wireless/WPAN - bluetooth/security/pairing/BR Secure connection.md",
     "wireless/WPAN - bluetooth/security/pairing/Legacy Pairing.md",
-    "hardware/_security.md",
     "wireless/WPAN - bluetooth/security/pairing",
     "wireless/WPAN - bluetooth/security/security modes and levels.md",
     "wireless/WPAN - bluetooth/security/bluetooth vulnerabilities.md",
@@ -167,22 +175,12 @@
     "wireless/WWAN - mobile/GSM - security/GSM - Anonymity.md",
     "wireless/WWAN - mobile/GSM - security/GSM - Confidentiality.md",
     "wireless/WWAN - mobile/GSM - security/GSM - Authentication.md",
-    "wireless/WWAN - mobile/3G - UMTS/RAN/RNC - Radio Network Controller.md",
     "wireless/WPAN - bluetooth/security",
-    "wireless/WWAN - mobile/GSM - security/GSM - Attacks.md",
-    "wireless/WWAN - mobile/_mobile network.md",
     "wireless/WWAN - mobile/3G - UMTS - security",
     "wireless/WWAN - mobile/GSM - security",
-    "wireless/WWAN - mobile/4G/_4G.md",
     "wireless/WWAN - mobile/_common",
-    "wireless/WWAN - mobile/_element map.md",
     "wireless/WWAN - mobile/4G",
-    "wireless/WWAN - mobile/3G - UMTS/RAN/NodeB.md",
-    "wireless/WWAN - mobile/GSM/RAN/BSC - Base Station Controller.md",
-    "wireless/WWAN - mobile/3G - UMTS/RAN/UTRAN - UMTS RAN.md",
     "wireless/WWAN - mobile/3G - UMTS/RAN",
-    "wireless/WWAN - mobile/GSM/RAN/BTS - BS - base (transceiver) stations.md",
-    "wireless/network/WWAN - Wireless Wide Area Network.md",
     "Recording 20240624165904.webm",
     "wireless/WWAN - mobile/3G - UMTS",
     "Recording 20240624165954.webm",

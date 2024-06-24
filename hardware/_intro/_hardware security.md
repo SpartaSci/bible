@@ -2,12 +2,11 @@
 tags:
   - hardware
   - attack
-  - root
 ---
 > general concept of security at physical layer	
 
 
-[[hardware/_intro/chain/Intellectual property|Intellectual property]]
+[[hardware/_intro/chain/IP - general|IP - general]]
 
 
 > **Trust issues** refer to situation where the **legitimacy** of the hardware cannot be confirmed, or when the source of information about attacks may not be the original hardware
@@ -46,8 +45,9 @@ Attack Surface: the sum of all possible risk exposures.
 
 **Flexibility**: important, especially, in processors that need to handle various tasks. Also means ensuring interoperability between different hardware and software components
 
-**Tamper resistance** ![[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]
+[[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]
 
 **Cost**
 
 **Assurance gap**
+

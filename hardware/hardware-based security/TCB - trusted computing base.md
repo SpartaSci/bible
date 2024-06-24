@@ -35,7 +35,7 @@ The entire security of the system is derived from a [[hardware/hardware trust/_h
 
 The key **must be unique** for each single piece of hardware
 It can be:
-- **burned in** at the factory by the manufacturer, implying trust issues with the manufacturer and [[hardware/_intro/chain/supplies chain|supplies chain]]
+- **burned in** at the factory by the manufacturer, implying trust issues with the manufacturer and [[hardware/_intro/chain/design flow|supplies chain]]
 - use [[hardware/PUFs/_PUFs - Physically Unclonable Functions|PUFs - Physically Unclonable Functions]] to derive the keys
 
 
