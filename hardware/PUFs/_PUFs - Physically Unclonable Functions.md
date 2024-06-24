@@ -9,7 +9,7 @@ aliases:
 
 It is not just an ID, it is a function that requires input and provides output, and it is *physical* because its implementation relies on the **physical characteristics of the component** not just of the netlist
 
-One of the most common applications of PUFs is exploiting the [[hardware/PUFs/Challenge-Response Pair CRP|CRPs]] for component [[hardware/hardware trust/Attestation and Authentication|Attestation and Authentication]]. By providing a specific sequence of inputs to the component before using it, and verifying the response, you can ensure a [[hardware/hardware-based security/secure boot|secure boot]]
+One of the most common applications of PUFs is exploiting the [[hardware/PUFs/Challenge-Response Pair CRP|CRPs]] for component [[hardware/hardware trust/TPM features/Attestation and Authentication|Attestation and Authentication]]. By providing a specific sequence of inputs to the component before using it, and verifying the response, you can ensure a [[hardware/hardware trust/TPM features/secure boot|secure boot]]
 
 [[hardware/PUFs/PUF properties|PUF properties]]
 

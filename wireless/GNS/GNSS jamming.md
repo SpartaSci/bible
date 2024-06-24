@@ -1,3 +1,10 @@
+---
+tags:
+  - attack/active
+  - DoS
+  - communication
+  - wireless
+---
 
 
 [[cybersec/attacks/jamming|jamming]]

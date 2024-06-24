@@ -1,0 +1,1 @@
+>Visitor Location Register (VLR): is logically (and often physically) associated with an [[wireless/WWAN - mobile/GSM/CN/MSC - mobile switching center|MSC]] and stores temporary information on users visiting the area covered by all base stations connected to the MSC

@@ -12,4 +12,4 @@ Others name/role:
 mobile devices
 
 
-Do not confuse it with [[wireless/WWAN - mobile/mobile stations|mobile stations]]
+Do not confuse it with [[wireless/WWAN - mobile/_common/UE - User Equipment|UE - User Equipment]]

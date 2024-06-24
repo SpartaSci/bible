@@ -31,7 +31,7 @@ By checking the lifetime of variables you can determinate **how many registers**
 
 %%This is the standard approach for working with an algorithm that generates variables, each with a specific lifetime, and consumes them later.%%
 
-To add a further constraint, you can focus on **how** variables are mapped to register. This can be seen as a **graph coloring problem**, where each variable represents a node, and edges indicate that two variables cannot share the same register due to overlapping lifetimes
+Therefore, to add a further constraint, you can focus on **how** variables are mapped to register. This can be seen as a **graph coloring problem**, where each variable represents a node, and edges indicate that two variables cannot share the same register due to overlapping lifetimes
 
 Often, these problems may have multiply nearly equivalent solutions, adding more constraints we ensure a unique watermark
 

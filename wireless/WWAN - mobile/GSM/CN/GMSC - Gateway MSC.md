@@ -1,0 +1,1 @@
+> GMSC (Gateway MSC): is the [[wireless/WWAN - mobile/GSM/CN/MSC - mobile switching center|MSC]] connecting the mobile network to the external telephone networks (PSTN) and that implements all signalling interworking functions

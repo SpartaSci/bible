@@ -6,3 +6,8 @@
 >**counterfeiting** refers to the creation and distribution of unauthorized copies of hardware
 
 
+[[hardware/conterfeit/counterfeiting types|counterfeiting types]]
+
+[[hardware/conterfeit/counterfeiting detection|counterfeiting detection]]
+
+[[hardware/conterfeit/counterfeiting prevention|counterfeiting prevention]]

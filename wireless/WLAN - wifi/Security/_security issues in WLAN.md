@@ -13,7 +13,7 @@ tags:
 
 [[wireless/WLAN - wifi/IEEE 802.11|802.11]] is more vulnerable than 802.3 to DoS attacks because of the **shared medium**
 
-**L1**: Radio Frequency Attacks or Jamming the wireless spectrum. The disruption occurs when SNR ratio reach a certain level
+**L1**: Radio Frequency Attacks or [[cybersec/attacks/jamming|jamming]] the wireless spectrum. The disruption occurs when SNR ratio reach a certain level
 
 **L2**: Protocol-based attacking. The higher layer of communication by denying and media-access control services.
 

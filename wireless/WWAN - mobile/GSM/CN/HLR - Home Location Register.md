@@ -1,0 +1,1 @@
+>HLR (Home Location Register): is the central database of the used for storing permanent user information and dynamic network location information; it also includes an AuC (Authentication Centre) for security procedures

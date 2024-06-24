@@ -8,12 +8,12 @@ aliases:
 
 # design methodologies and style
 ## Full-custom design: 
->you design everything, sizing and positioning of each transistor, optimizing each component to achieve the best performance. 
+>you design everything, sizing and positioning of **each transistor**, optimizing each component to achieve the best performance. 
 
 Feasible for small designs or critical portions of larger designs, since is very time-consuming and complex.
 
 ## Semi-custom design: 
->you use pre-designed building blocks to construct circuits, such as basic gates and sequential elements 
+>you use pre-designed **building blocks** to construct circuits, such as basic gates and sequential elements 
 
 
 **Application-Specific Integrated Circuits ([[hardware/VLSI and IP/ASIC|ASICs]])**: these use library of pre-designed components specific to certain applications.
@@ -22,7 +22,7 @@ Feasible for small designs or critical portions of larger designs, since is very
 
 
 ## Programmable logic devices (PLDs):
-> these devices have a predefined but flexible structure that can be programmed to implement various functions
+> these devices have a **predefined** but flexible structure that can be programmed to implement various functions
 
 Less optimized than semi-custom design, but they are valuable when **developing** new designs
 

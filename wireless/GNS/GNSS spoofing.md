@@ -26,7 +26,7 @@ An ideal spoofer must be as much as possible consistent with the real signals
 - it can add a *variable delay*
 - typically, with *higher power to cover* the true signal
 - difficult to counteract, especially for near zero delay
-- 
+
 
 # anti-spoofing techniques
 

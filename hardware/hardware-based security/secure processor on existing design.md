@@ -17,7 +17,7 @@ challenges:
 
 When switching between protected software and other software, either protected or not, you must flush the state or save and restore it to prevent one software influencing another.
 
-help against [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) and [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability))
+help against [[hardware/attack taxonomy/side channel/spectre|spectre]] and [[hardware/attack taxonomy/side channel/meltdown|meltdown]]
 
 challenges:
 - performance

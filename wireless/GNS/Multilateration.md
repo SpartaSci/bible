@@ -19,12 +19,14 @@ $$R = (T_{RX} - T_{TX}) * C = [(t_0+\tau)-(t_0)]*C=\tau*C$$
 
 > [!Attention] synchronization of clocks is IMPORTANT
 
+^654c6e
+
 # synchronization
 
 
 > satellites have high grade **atomic clock** that are very **stable** in time.
 
-The ground system, also, plays a role in keeping the satellites' clock synchronized
+The [[wireless/GNS/_Global Navigation Satellite Systems#control segment|ground system]], also, plays a role in keeping the satellites' clock synchronized
 
 > [!hint] therefore, **synchronous clocks** are assumed to be in the satellites 
 > $\delta t^s = 0$
@@ -116,8 +118,8 @@ $$
 \Delta\rho _ 2=a _ {x2}\Delta x _ u + a _ {y2}\Delta y _ u+ a _ {z2}\Delta z _ u -\Delta b _ {ut}\\
 \Delta\rho _ 3=a _ {x3}\Delta x _ u + a _ {y3}\Delta y _ u+ a _ {z3}\Delta z _ u -\Delta b _ {ut}\\
 \Delta\rho _ 4=a _ {x4}\Delta x _ u + a _ {y4}\Delta y _ u+ a _ {z4}\Delta z _ u -\Delta b _ {ut}\\
-\end{cases}
-$$$$
+\end{cases}$$
+$$
 \Delta\rho = 
 \begin{bmatrix}
     \Delta\rho _ 1 \\
@@ -140,8 +142,8 @@ H =
 	\Delta y _ u \\
 	\Delta z _ u \\
 	-\Delta b _ {ut}  
-\end{bmatrix}
-$$
+\end{bmatrix}$$
+
 
 
 $$\Delta \rho = H \Delta x$$

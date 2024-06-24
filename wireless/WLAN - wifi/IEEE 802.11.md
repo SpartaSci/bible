@@ -20,8 +20,8 @@ Before a mobile station can  send traffic through an AP, it must be in the appro
 > Data exchange can only happen after the authentication and association are completed using the [[wireless/WLAN - wifi/CSMA-CA|CSMA-CA protocol]]
 
 
-1. **Beacons** are frames **broadcast** (at regular intervals) by the AP in order to advertise the SSID of the WLAN to wireless clients. ^e1b824
-2. **Probes** are frames used by STA in order to find a WLAN network
+1. **Beacons** are frames **broadcast** (at regular intervals) by the [[wireless/WLAN - wifi/Access point|AP]] in order to advertise the SSID of the WLAN to wireless clients. ^e1b824
+2. **Probes** are frames used by [[wireless/WLAN - wifi/Wireless stations|STA]] in order to find a WLAN network
 	- frames are send on multiple channels
 	- contains SSID of the WLAN the client wants to join and supported bit rates
 		- a client can send out a *probe request* with no SSID specifications but will respond only APs without broadcast SSID disabled
@@ -37,7 +37,7 @@ No data encryption or security is available in this stage. It is initiated by th
 
 > Authentication in 802.11 is an **open system authentication** and it follows a **shared key authentication** paradigm
 
-1. an *authentication request* is sent from the STA that contains the station ID, typically the MAC address
+1. an *authentication request* is sent from the [[wireless/WLAN - wifi/Wireless stations|STA]] that contains the station ID, typically the MAC address
 2. an *authentication response* from the AP with a success or failure message
 Shared key authentication: a shared key, or passphrase, is manually set on both the mobile device and the AP. ([[wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy|WEP]],[[wireless/WLAN - wifi/Security/802.11i|WPA]])
 
@@ -49,7 +49,7 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 
 1. STA sends an *association request* 
 2. AP processes the request and **decides** if a client should be allowed
-3. when AP approves association, it *response* with a status code of 0 and the Association ID (AID). AID is used to identify the station for delivery of buffered frames when power-saving is enabled
+3. when AP approves association, it send an *association response* with a status code of 0 and the Association ID (AID). AID is used to identify the station for delivery of buffered frames when power-saving is enabled
 
 
 
@@ -79,12 +79,10 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 There are 3 possible attacks on Power Saving:
 - attacker can **spoof on behalf of the AP the TIM message**: client could think there is no data for itself and therefore it can go to sleep
 - attacker **forges management synchronization packets**, this will cause the client to fall out of synchronization with the AP
-- attacker **spoofs itself on behalf of the client**, AP will send data while the client is sleeping. Meaning that the attacker will forge the message that the specific attacked node is not sleeping, when in reality it is, therefore, packets directed to it will not be processed.
-
-
-The attacker impersonates the victim station, this is possible as it only needs to know the AP and the victim MAC address.
-The attacker keeps **injecting false Power Management frames** with the bit set to 1, therefore the AP believes the victim is in sleep mode and starts buffering the packets.
-The AP sends a **beacon** frames with the **TIM** to signal the victim node to wake up, but the victim **ignores** those TIMs since it is **not in power management**
+- attacker **spoofs itself on behalf of the client**:
+	- The attacker impersonates the victim station, this is possible as it only needs to know the AP and the victim MAC address.
+	- *client sleeping*:  Meaning that the attacker will forge the message that the specific attacked node is not sleeping, when in reality it is, therefore, AP will send data while the client is sleeping. **packets** directed to it **will not be processed**.
+	- *client not sleeping*:  The attacker keeps injecting false Power Management frames with the bit set to 1, therefore the AP believes the victim is in sleep mode and **starts buffering** the packets. The AP sends a beacon frames with the TIM to signal the victim node to wake up, but the victim **ignores TIMs** since it is not in power management
 
 In conclusion:
 - DoS attacks in 802.11 are very plausible with existing equipment

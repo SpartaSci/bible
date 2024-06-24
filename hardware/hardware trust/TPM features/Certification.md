@@ -9,6 +9,6 @@ it can be used to associate credentials (certificate) with other TPMs
 A certified key that can be used for **signing** may be used to attest the platform data that affect the integrity (*trustworthiness*) of a platform
 
 
-Certificate and authentication credential can be stored in a [[hardware/hardware trust/_hardware trust#for storage|RTS element]]
+Certificate and authentication credential can be stored in a [[hardware/hardware trust/_hardware trust#for storage RTS|RTS element]]
 
 

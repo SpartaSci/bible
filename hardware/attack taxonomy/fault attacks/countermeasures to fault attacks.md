@@ -33,7 +33,4 @@ May generate false positives
 
 **robust package**: several fault injection techniques require the die to be exposed, so hardening the package can help
 - [[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]
-
-
-
-
+- [[hardware/_intro/Tamper-resistant devices#Temper-evident devices|Tamper-evident devices]]

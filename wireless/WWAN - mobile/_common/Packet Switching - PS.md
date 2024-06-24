@@ -1,0 +1,1 @@
+>**Packet Switching**: A method of transmitting data in which messages are broken into small packets, each with its own destination address. These packets can travel different routes to their destination and are reassembled upon arrival.

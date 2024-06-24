@@ -7,7 +7,8 @@ The stability of the output is crucial to avoid errors, but errors help against 
 
 Arbiter PUFs is a Strong PUF, since the configuration is based on the multiplexer setup and provide a large space of CRPs
 
-[[electronics/Ring oscillator|Ring oscillator]]
+[[hardware/PUFs/Ring Oscillator PUF|Ring Oscillator PUF]]
+[[hardware/PUFs/Arbiter PUF|Arbiter PUF]]
 
 
 # IC authentication

@@ -14,3 +14,7 @@ tags:
 **Relay attack** against *proximity authentication* like to unlock a Tesla
 
 Relay =  trasmettere/staffetta
+
+
+
+**Brute forcing the TK negotiation**: 

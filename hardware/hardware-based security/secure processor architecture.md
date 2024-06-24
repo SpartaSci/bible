@@ -37,8 +37,8 @@ The software executing within a TEE is assumed to be **benign**, so there is no 
 **Protect memory** with encryption and integrity [[cybersec/defence/merkle Tree|merkle Tree]]
 
 **Flush or isolate** state
-## no-side effect
-> secure processor architectures ideally have **No-side effects execution**. Meaning that no side-effect can be **visible** to the un-trusted component whenever protected software is running
+
+>**no-side effect**: secure processor architectures ideally have **No-side effects execution**. Meaning that no side-effect can be **visible** to the un-trusted component whenever protected software is running
 
 The system is in some state -> protected SW run and modify the state -> when it is interrupted **the state modification must be erased**, no bug allowed about this.
 
@@ -47,3 +47,21 @@ The system is in some state -> protected SW run and modify the state -> when it 
 # TCB
 [[hardware/hardware-based security/TCB - trusted computing base|TCB - trusted computing base]]
 > **trusted computing base** is the set of **hardware** and **software** that is responsible for realizing the Trusted Execution Enviroments ([[hardware/hardware-based security/TEE - trusted execution environment|TEEs]])
+
+
+
+
+[[hardware/hardware-based security/memory/_memory security|_memory security]]
+
+
+**Multiprocessor**
+
+[[hardware/hardware-based security/DSM - distributed shared memory|DSM - distributed shared memory]]
+
+[[hardware/hardware-based security/SMP - symmetric multiprocessing|SMP - symmetric multiprocessing]]
+
+
+
+
+[[hardware/hardware-based security/secure processor on existing design|secure processor on existing design]]
+

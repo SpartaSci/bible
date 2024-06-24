@@ -29,7 +29,7 @@ specifications:
 	- [[signal analysis/signal multiplexing#TDM - Time Division Multiplexing|TDM]] and [[signal analysis/signal multiplexing#FDM - Frequency Division Multiplexing|FDM]]  
 - **Parked mode**: client can go to sleep and later wake up
 - **Bootstrapping**: node can plug-and-play automatically into piconet
-- [[wireless/WPAN - bluetooth/Frequency hopping|Frequency hopping]]: devices move from one channel to another, in order to no interfere with other devices in the piconet
+- [[wireless/Communications/Frequency hopping|Frequency hopping]]: devices move from one channel to another, in order to no interfere with other devices in the piconet
 
 
 
@@ -60,7 +60,7 @@ It is am **overloaded spectrum**, meaning that there's a lot of interference
 
 **Spread spectrum**: [[signal analysis/spread spectrum|spread spectrum]] -> [[signal analysis/signal multiplexing#CDM - Code Division Multiplexing|CDMA]]
 
-[[wireless/WPAN - bluetooth/Frequency hopping|Frequency hopping]]
+[[wireless/Communications/Frequency hopping|Frequency hopping]]
 
 
 ## link layer
@@ -73,4 +73,4 @@ Frame structure
 
 # security
 
-[[wireless/WPAN - bluetooth/bluetooth security|bluetooth security]]
+[[wireless/WPAN - bluetooth/security/_bluetooth security|_bluetooth security]]

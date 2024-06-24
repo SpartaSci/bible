@@ -8,7 +8,7 @@ aliases:
 2. HW starts the hypervisor, and its code will be checked against the digitally signed version of it
 
 
-When all levels are trusted, **compute cryptography hashes over code and data of each level**, defined as **measurements** to verify the #integrity and #authenticity of the components. This mechanism is at the base of [[hardware/hardware-based security/secure boot|secure boot]]
+When all levels are trusted, **compute cryptography hashes over code and data of each level**, defined as **measurements** to verify the #integrity and #authenticity of the components. This mechanism is at the base of [[hardware/hardware trust/TPM features/secure boot|secure boot]]
 
 # using 
 ## secure boot

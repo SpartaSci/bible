@@ -11,15 +11,17 @@ It requires to :
 - unnoticeable performance degradation
 
 
-[[hardware/watermarking/static watermarking|static watermarking]] -> [[hardware/watermarking/static watermarking#Constraint based watermarking|Constraint based]] -> [[hardware/watermarking/static watermarking#system level|system level]]
-										-> [[hardware/watermarking/static watermarking#register allocation|register allocation]]
-										-> [[hardware/watermarking/static watermarking#synthesis level|synthesis level]]
-										-> [[hardware/watermarking/static watermarking#physical synthesis P&R level|Physical synthesis P&R level]]
+[[hardware/watermarking/static watermarking|static watermarking]] -> [[hardware/watermarking/static watermarking#Constraint based watermarking|Constraint based]] 
+-> [[hardware/watermarking/static watermarking#system level|system level]]
+-> [[hardware/watermarking/static watermarking#register allocation|register allocation]]
+-> [[hardware/watermarking/static watermarking#synthesis level|synthesis level]]
+-> [[hardware/watermarking/static watermarking#physical synthesis P&R level|Physical synthesis P&R level]]
 										
 
 
 
-[[hardware/watermarking/dynamic watermarking|dynamic watermarking]] -> [[hardware/watermarking/dynamic watermarking#FSM based|FSM based]] -> [[hardware/watermarking/finite state machine|finite state machine]]
-					 -> [[hardware/watermarking/dynamic watermarking#Testing based|Testing based]] -> [[hardware/watermarking/testing|testing]]
-					 -> [[hardware/watermarking/dynamic watermarking#Side channel based|side channel based]]
+[[hardware/watermarking/dynamic watermarking|dynamic watermarking]] 
+-> [[hardware/watermarking/dynamic watermarking#FSM based|FSM based]] -> [[hardware/watermarking/finite state machine|finite state machine]]
+-> [[hardware/watermarking/dynamic watermarking#Testing based|Testing based]] -> [[hardware/watermarking/testing|testing]]
+-> [[hardware/watermarking/dynamic watermarking#Side channel based|side channel based]]
 					 

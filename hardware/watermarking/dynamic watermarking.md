@@ -35,7 +35,7 @@ In test  you can inject a sequence of bits through the chain of flip-flops and o
 # Side channel based
 [[hardware/attack taxonomy/side channel/_side channel|_side channel]]
 
-Often based on adding a power consumption signature, it should be below the noise floor, otherwise the power consumption goes up and became easily detectable. This add must not impact the circuit's functionality 
+Often based on adding a **power consumption signature**, it should be below the noise floor, otherwise the power consumption goes up and became easily detectable. This add must not impact the circuit's functionality 
 
 
 **Ring oscillators** triggered by a specific input sequence

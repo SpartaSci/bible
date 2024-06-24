@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f082a4161c9c988e",
+        "id": "ef9c46410f2998a4",
         "type": "tabs",
         "children": [
           {
-            "id": "46360df2c309e2f3",
+            "id": "c02dc6ed945e4536",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hardware/conterfeit/_counterfeiting.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92732a2148e1d300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hardware/conterfeit/counterfeiting types.md",
-                "mode": "source",
+                "file": "hardware/_intro/_hardware security.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "counterf",
+                "query": "dummy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hardware/conterfeit/counterfeiting types.md",
+                "file": "hardware/_intro/_hardware security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hardware/conterfeit/counterfeiting types.md",
+                "file": "hardware/_intro/_hardware security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hardware/conterfeit/counterfeiting types.md"
+                "file": "hardware/_intro/_hardware security.md"
               }
             }
           }
@@ -160,48 +145,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "92732a2148e1d300",
+  "active": "c02dc6ed945e4536",
   "lastOpenFiles": [
-    "hardware/conterfeit/_counterfeiting.md",
-    "hardware/conterfeit/counterfeiting types.md",
-    "hardware/_intro/vulnerability.md",
-    "hardware/_security.md",
-    "hardware/attack taxonomy/hardware trojan/_hardware trojan.md",
-    "hardware/PUFs/strong PUFs.md",
-    "hardware/PUFs/_PUFs - Physically Unclonable Functions.md",
-    "hardware/PUFs/weak PUFs.md",
-    "hardware/PUFs/PUF properties.md",
+    "wireless/WPAN - bluetooth/security/pairing/_pairing.md",
+    "wireless/WPAN - bluetooth/security/bluetooth Privacy.md",
+    "wireless/WPAN - bluetooth/security/_bluetooth security.md",
+    "wireless/WPAN - bluetooth/security/pairing/secure simple pairing.md",
     "wireless/WPAN - bluetooth/_bluetooth.md",
-    "wireless/Communications/FEC - forward error correction.md",
-    "cybersec/_properties/integrity.md",
-    "cybersec/integrity/Error Correction Code.md",
-    "cybersec/integrity",
-    "hardware/hardware trust/integrity measurements and reporting.md",
-    "hardware/PUFs/Challenge-Response Pair CRP.md",
-    "hardware/hardware trust/TPM - Trusted Platform Module.md",
-    "hardware/hardware trust/Attestation and Authentication.md",
-    "hardware/hardware trust/_hardware trust.md",
-    "hardware/attack taxonomy/side channel/cache side-channel attacks.md",
-    "hardware/attack taxonomy/side channel/cloud-FPGA side-channel attacks.md",
-    "hardware/attack taxonomy/side channel/_side channel.md",
-    "hardware/hardware-based security/principles of computer architecture.md",
-    "hardware/attack taxonomy/side channel/meltdown.md",
-    "hardware/attack taxonomy/side channel/spectre.md",
-    "hardware/attack taxonomy/side channel/power attacks.md",
-    "hardware/attack taxonomy/side channel/timing attacks.md",
-    "hardware/attack taxonomy/side channel",
-    "hardware/attack taxonomy",
-    "hardware/attack taxonomy/test-infrastructure",
-    "hardware/attack taxonomy/fault attacks",
-    "hardware/attack taxonomy/invasive attacks",
-    "hardware/_intro/chain",
-    "hardware/conterfeit",
-    "hardware/random number generator",
-    "cybersec/_properties",
+    "wireless/WPAN - bluetooth/security/pairing/BLE Legacy Pairing.md",
+    "wireless/WPAN - bluetooth/security/pairing/BLE secure connections.md",
+    "wireless/WPAN - bluetooth/security/pairing/BR Secure connection.md",
+    "wireless/WPAN - bluetooth/security/pairing/Legacy Pairing.md",
+    "hardware/_security.md",
+    "wireless/WPAN - bluetooth/security/pairing",
+    "wireless/WPAN - bluetooth/security/security modes and levels.md",
+    "wireless/WPAN - bluetooth/security/bluetooth vulnerabilities.md",
+    "wireless/WPAN - bluetooth/bluetooth confidentiality.md",
+    "wireless/WWAN - mobile/GSM - security/GSM - Anonymity.md",
+    "wireless/WWAN - mobile/GSM - security/GSM - Confidentiality.md",
+    "wireless/WWAN - mobile/GSM - security/GSM - Authentication.md",
+    "wireless/WWAN - mobile/3G - UMTS/RAN/RNC - Radio Network Controller.md",
+    "wireless/WPAN - bluetooth/security",
+    "wireless/WWAN - mobile/GSM - security/GSM - Attacks.md",
+    "wireless/WWAN - mobile/_mobile network.md",
+    "wireless/WWAN - mobile/3G - UMTS - security",
+    "wireless/WWAN - mobile/GSM - security",
+    "wireless/WWAN - mobile/4G/_4G.md",
+    "wireless/WWAN - mobile/_common",
+    "wireless/WWAN - mobile/_element map.md",
+    "wireless/WWAN - mobile/4G",
+    "wireless/WWAN - mobile/3G - UMTS/RAN/NodeB.md",
+    "wireless/WWAN - mobile/GSM/RAN/BSC - Base Station Controller.md",
+    "wireless/WWAN - mobile/3G - UMTS/RAN/UTRAN - UMTS RAN.md",
+    "wireless/WWAN - mobile/3G - UMTS/RAN",
+    "wireless/WWAN - mobile/GSM/RAN/BTS - BS - base (transceiver) stations.md",
+    "wireless/network/WWAN - Wireless Wide Area Network.md",
+    "Recording 20240624165904.webm",
+    "wireless/WWAN - mobile/3G - UMTS",
+    "Recording 20240624165954.webm",
     "hardware/_images/testing_watermarking2.png",
     "hardware/_images/testing_watermarking.png",
     "hardware/security/Untitled.canvas"

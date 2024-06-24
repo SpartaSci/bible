@@ -14,12 +14,7 @@ tags:
 # channel section
 > the channel transfers analog signal from TX to the RX
 
-different types if disturbance:
-- frequency-domain distortion
-- wireless fading
-- additive noise 
-- impulsive noise 
-- interference from other channels
+[[wireless/Communications/Channel section communication|Channel section communication]]
 
 
 # receiver chain

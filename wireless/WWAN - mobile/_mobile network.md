@@ -7,7 +7,7 @@ tags:
 ---
 [[wireless/network/WWAN - Wireless Wide Area Network|WWAN - Wireless Wide Area Network]]
 
-Mobile network allow radio user terminals, User Equipment or **Mobile Stations [[wireless/WWAN - mobile/mobile stations|MS]]** to connect to *global network infrastructure and services*
+Mobile network allow radio user terminals, User Equipment or **Mobile Stations [[wireless/WWAN - mobile/_common/UE - User Equipment|MS]]** to connect to *global network infrastructure and services*
 
 **Radio Access Network (RAN)**: which handles the radio *connectivity* with *users* 
 
@@ -16,7 +16,7 @@ Mobile network allow radio user terminals, User Equipment or **Mobile Stations [
 
 # base station
 
-[[wireless/WWAN - mobile/base stations|base stations]] are deployed in the service area to provide connectivity to [[wireless/WWAN - mobile/mobile stations|UEs]] in any position. The area where UEs connect to a specific BS is called he **cell**, which we can shape as as **hexagonal** 
+[[wireless/WWAN - mobile/GSM/RAN/BTS - BS - base (transceiver) stations|BTS - BS - base (transceiver) stations]] are deployed in the service area to provide connectivity to [[wireless/WWAN - mobile/_common/UE - User Equipment|UEs]] in any position. The area where UEs connect to a specific BS is called he **cell**, which we can shape as as **hexagonal** 
 
 
 # cluster model
@@ -29,4 +29,12 @@ Mobile network allow radio user terminals, User Equipment or **Mobile Stations [
 
 Access radio resources are shared among users of the *same cell* and of *different cell*
 
-[[wireless/WWAN - mobile/handover|handover]]
+[[wireless/WWAN - mobile/_common/handover|handover]]
+
+
+
+
+
+*Increasing the LA size*, we increase the signalling traffic due to [[wireless/WWAN - mobile/_common/Paging|Paging]]
+*Decreasing the LA size*, we increase the signalling traffic due to [[wireless/WWAN - mobile/_common/Location update|Location update]]
+

@@ -4,7 +4,7 @@ tags:
   - gnss
 ---
 [[wireless/GNS/_Global Navigation Satellite Systems|GNSS]]
-
+# GNSS Threats
 GNSS system can be attacked by **degrading the navigation signal** and main sources of it are:
 - **evil waveforms**: distortions of the broadcast signal due to failures in the onboard satellite payload
 - **Multipath**: if the signal is reflect multiple times, computing the exact position becomes a problems
@@ -47,5 +47,5 @@ The **de-spreading operation** made at the receiver spreads **the power of the i
 **Intentional interference**: not only related to a military context
 - [[cybersec/attacks/jamming|jamming]]
 - [[wireless/GNS/GNSS spoofing|GNSS spoofing]]
-- 
+
 
