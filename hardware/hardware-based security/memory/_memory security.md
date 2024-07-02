@@ -19,7 +19,7 @@
 
 The contents of the memory can be protected with [[cybersec/defence/encryption|encryption]] techniques in order to provide #confidentiality 
 
-- **Data going out of the CPU are encrypted** by an *encryption engine* (usually [[cybersec/enc/symmetric/block/AES|AES]] in CTR)
+- **Data going out of the CPU are encrypted** by an *encryption engine* (usually [[crypto/symmetric/block/AES|AES]] in CTR)
 - **Data coming from the memory are decrypted** by an *decryption engine* 
 
 It is possible have a channel for plaintext, this comes with a trade-off between **time and power consumption** and **attack surface size**

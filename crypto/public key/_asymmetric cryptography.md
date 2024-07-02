@@ -17,8 +17,8 @@ Public keys are not confidential, but they must be authentic, while private one 
 > **Diffie-Hellmab problem**: given a prime p, a generator g and x,y find $g^{xy}\mod p$
 
 
-[[cybersec/enc/public key/RSA|RSA]]
+[[crypto/public key/RSA|RSA]]
 
-[[cybersec/enc/public key/Diffie-Hellman|Diffie-Hellman]]
+[[crypto/public key/Diffie-Hellman|Diffie-Hellman]]
 
 

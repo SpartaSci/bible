@@ -16,7 +16,7 @@ Variabilities that can affect the timing
 
 
 
-# timing analysis on [[cybersec/enc/public key/RSA|RSA]]
+# timing analysis on [[crypto/public key/RSA|RSA]]
 
 The modular exponentiation step in RSA encryption is done by a Square and Multiply algorithm that based on the bit value of the base do different operations
 

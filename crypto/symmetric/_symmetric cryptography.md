@@ -31,5 +31,5 @@ aliases:
 **Mono alphabetic cipher**: maps each plaintext letter to a distinct ciphertext letter
 
 **One-Time Pad**: single pre-shared key that is larger than or equal to the size of the message being sent. Produce a **random output** that bears no statistical relationship to the plaintext. Offers complete security but problems of making large keys and distributing large keys
-[[cybersec/enc/symmetric/stream/_stream cipher|_stream cipher]]
+[[crypto/symmetric/stream/_stream cipher|_stream cipher]]
 

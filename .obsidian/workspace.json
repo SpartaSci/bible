@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ef9c46410f2998a4",
+        "id": "cd5baed68202bfc7",
         "type": "tabs",
         "children": [
           {
-            "id": "c02dc6ed945e4536",
+            "id": "387be6efadff5783",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
-                "mode": "preview",
+                "file": "crypto/Elliptic curve.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dummy",
+                "query": "grou",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
+                "file": "crypto/Elliptic curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hardware/attack taxonomy/side channel/timing attacks.md",
+                "file": "crypto/Elliptic curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hardware/attack taxonomy/side channel/timing attacks.md"
+                "file": "crypto/Elliptic curve.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,46 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c02dc6ed945e4536",
+  "active": "387be6efadff5783",
   "lastOpenFiles": [
-    "hardware/attack taxonomy/side channel/_side channel.md",
-    "hardware/_security.md",
-    "hardware/attack taxonomy/invasive attacks/reverse engineering.md",
-    "hardware/_intro/chain/IP - general.md",
-    "hardware/_intro/chain/supplies chain.md",
-    "hardware/attack taxonomy/hardware trojan/_hardware trojan.md",
-    "hardware/hardware-based security/TCB - trusted computing base.md",
-    "hardware/attack taxonomy/hardware trojan/trojan in the chain.md",
-    "hardware/watermarking/testing.md",
-    "hardware/_intro/_hardware security.md",
-    "hardware/_intro/cycle in securing a system.md",
-    "wireless/WPAN - bluetooth/security/pairing/_pairing.md",
-    "wireless/WPAN - bluetooth/security/bluetooth Privacy.md",
-    "wireless/WPAN - bluetooth/security/_bluetooth security.md",
-    "wireless/WPAN - bluetooth/security/pairing/secure simple pairing.md",
-    "wireless/WPAN - bluetooth/_bluetooth.md",
-    "wireless/WPAN - bluetooth/security/pairing/BLE Legacy Pairing.md",
-    "wireless/WPAN - bluetooth/security/pairing/BLE secure connections.md",
-    "wireless/WPAN - bluetooth/security/pairing/BR Secure connection.md",
-    "wireless/WPAN - bluetooth/security/pairing/Legacy Pairing.md",
+    "crypto/equivalent classes.md",
+    "crypto/Euclidean Algorithm.md",
+    "crypto/Extension Field Arithmetic.md",
+    "crypto/Finite Field.md",
+    "crypto/Finite Groups.md",
+    "crypto/Prime Field Arithmetic.md",
+    "crypto/modular arithmetic.md",
+    "crypto/random numbers.md",
+    "crypto/Elliptic curve.md",
+    "crypto/Elgamal encryption.md",
+    "crypto/cyclic groups.md",
+    "crypto/Linear Feedback Shift Registers LFSRs.md",
+    "crypto/Euler's Phi Function.md",
+    "hardware/conterfeit/counterfeiting types.md",
+    "hardware/conterfeit/_counterfeiting.md",
+    "crypto/digital signature.md",
+    "crypto/public key/RSA.md",
+    "crypto/_crypto.md",
+    "crypto/_math/Group.md",
+    "crypto/_math",
+    "crypto/symmetric/stream/stream ciphers.md",
+    "crypto/symmetric/stream/_stream cipher.md",
+    "crypto/symmetric/_symmetric cryptography.md",
+    "crypto/symmetric/block/_block cipher.md",
+    "crypto/symmetric/block/AES.md",
+    "crypto/symmetric/block/DES.md",
+    "crypto/symmetric/block/DES.md",
+    "crypto/symm",
+    "crypto/images/permutation.png",
+    "crypto/images/expansor.png",
+    "crypto/images/des_3.png",
+    "crypto/images/des_4.png",
+    "crypto/images/des_2.png",
+    "crypto/images/des_1.png",
+    "crypto/images/Screenshot from 2024-06-26 16-10-09.png",
+    "crypto/images/Screenshot from 2024-06-26 16-09-44.png",
+    "crypto/images/Screenshot from 2024-06-26 16-09-24.png",
+    "crypto/images/Screenshot from 2024-06-26 16-08-50.png",
+    "crypto/images",
     "wireless/WPAN - bluetooth/security/pairing",
-    "wireless/WPAN - bluetooth/security/security modes and levels.md",
-    "wireless/WPAN - bluetooth/security/bluetooth vulnerabilities.md",
-    "wireless/WPAN - bluetooth/bluetooth confidentiality.md",
-    "wireless/WWAN - mobile/GSM - security/GSM - Anonymity.md",
-    "wireless/WWAN - mobile/GSM - security/GSM - Confidentiality.md",
-    "wireless/WWAN - mobile/GSM - security/GSM - Authentication.md",
     "wireless/WPAN - bluetooth/security",
     "wireless/WWAN - mobile/3G - UMTS - security",
     "wireless/WWAN - mobile/GSM - security",
     "wireless/WWAN - mobile/_common",
     "wireless/WWAN - mobile/4G",
     "wireless/WWAN - mobile/3G - UMTS/RAN",
-    "Recording 20240624165904.webm",
-    "wireless/WWAN - mobile/3G - UMTS",
-    "Recording 20240624165954.webm",
-    "hardware/_images/testing_watermarking2.png",
-    "hardware/_images/testing_watermarking.png",
     "hardware/security/Untitled.canvas"
   ]
 }

@@ -29,7 +29,7 @@ Access control an **STA to be authenticated by the AP before the association**
 
 The authentication process is based on a simple *symmetric challenge-response*:
 - STA knows key $k$. It sends an *Authentication request* to the AP
-- AP also knows key $k$. AP send a challenge $r$ 128 bits longs. The key is not used to encrypt but to start the [[cybersec/enc/symmetric/stream/RC4|RC4]] keystream generation. The result byte sequence $K_{rc4}$ is xored to the challenge $r$, resulting in $E_k(r)$ encrypted response to the challenge.
+- AP also knows key $k$. AP send a challenge $r$ 128 bits longs. The key is not used to encrypt but to start the [[crypto/symmetric/stream/RC4|RC4]] keystream generation. The result byte sequence $K_{rc4}$ is xored to the challenge $r$, resulting in $E_k(r)$ encrypted response to the challenge.
 
 Anybody can authenticate themselves without knowing the real key, as the attacker can sniff the challenge $r$ and the encrypted response $E_k(r)$. Therefore, in order to retrieve the key $k$ the only operation to perform is the reverse XOR: $$r \ xor \ E_k(r) = K_{rc4}$$
 
@@ -42,7 +42,7 @@ WEP utilizes **Cyclic Redundancy Check** CRC-32 checksum to provide data integri
 
 **ICV** (integrity check value) added to each frame, by using the simple CRC32 algorithm
 
-WEP confidentiality is provided by **encrypting**  the message before the transmission. The algorithm used is the [[cybersec/enc/symmetric/stream/RC4|RC4]] algorithm, same one for authentication
+WEP confidentiality is provided by **encrypting**  the message before the transmission. The algorithm used is the [[crypto/symmetric/stream/RC4|RC4]] algorithm, same one for authentication
 
 First we attach CRC to the payload, then we encrypt all. (authentication then encryption)
 

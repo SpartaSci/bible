@@ -46,3 +46,5 @@ $$STK = E_{tk}(Srand | Mrand)$$
 **LTK (Long Term Key)**: distributed once the initial pairing procedure has encrypted the connection 
 - A random number stored in a security DB
 - Generated on the slave device
+
+
