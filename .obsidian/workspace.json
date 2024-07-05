@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cd5baed68202bfc7",
+        "id": "666b03b2ed3142e7",
         "type": "tabs",
         "children": [
           {
-            "id": "387be6efadff5783",
+            "id": "a59c55f3ce9d9a99",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "crypto/Elliptic curve.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "crypto/Elliptic curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "crypto/Elliptic curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "crypto/Elliptic curve.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "387be6efadff5783",
+  "active": "a59c55f3ce9d9a99",
   "lastOpenFiles": [
+    "README.md",
+    "crypto/Elliptic curve.md",
     "crypto/equivalent classes.md",
     "crypto/Euclidean Algorithm.md",
     "crypto/Extension Field Arithmetic.md",
@@ -157,7 +150,6 @@
     "crypto/Prime Field Arithmetic.md",
     "crypto/modular arithmetic.md",
     "crypto/random numbers.md",
-    "crypto/Elliptic curve.md",
     "crypto/Elgamal encryption.md",
     "crypto/cyclic groups.md",
     "crypto/Linear Feedback Shift Registers LFSRs.md",
@@ -174,7 +166,6 @@
     "crypto/symmetric/_symmetric cryptography.md",
     "crypto/symmetric/block/_block cipher.md",
     "crypto/symmetric/block/AES.md",
-    "crypto/symmetric/block/DES.md",
     "crypto/symmetric/block/DES.md",
     "crypto/symm",
     "crypto/images/permutation.png",
