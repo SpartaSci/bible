@@ -13,7 +13,8 @@ third part [[hardware/VLSI and IP/Intellectual Properties|IP]] and [[hardware/VL
 **Malicious CAD Tool Trojans**: like synthesizer but in place e route
 
 
-[[hardware/_intro/chain/fabrication|fabrication]] is another stage where trojan can be introduced, either during the manufacturing process or afterwards in the packaging stage. Often, fabrication and packaging are distributed across multiple locations, adding more vulnerability
+[[hardware/_intro/chain/fabrication|fabrication]] is another stage where trojan can be introduced, either during the manufacturing process or afterwards in the packaging stage. Often, fabrication and packaging are distributed across multiple locations, adding more [[hardware/_intro/hardware vulnerability|hardware vulnerability]]
+
 **hard IP & Foundry Trojans**: [[hardware/_intro/chain/fabrication|foundry]] may edit circuit design 
 
 

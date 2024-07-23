@@ -16,7 +16,7 @@ tags:
 
 
 # vulnerability
-[[hardware/_intro/vulnerability|vulnerability]]
+[[hardware/_intro/hardware vulnerability|hardware vulnerability]]
 # threat
 > **set** of circumstances that has the **potential** to cause loss or harm
 

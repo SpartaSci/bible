@@ -4,6 +4,8 @@ tags:
   - wireless
 ---
 
+[[cybersec/_problem/vulnerability|vulnerability]]
+
 
 **Denial of Service**: Flood the victim with *pairing requests*
 

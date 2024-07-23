@@ -3,7 +3,7 @@ tags:
   - attack
   - hardware
 ---
-> the act of exploiting a hardware [[hardware/_intro/vulnerability|vulnerability]] to perform an attack
+> the act of exploiting a hardware [[hardware/_intro/hardware vulnerability|hardware vulnerability]] to perform an attack
 
 
 # goal
@@ -17,7 +17,7 @@ tags:
 # domain
 
 **logical**: carried out exploiting the *software* run by the hardware
-**physical**: carried out directly exploiting a hardware [[hardware/_intro/vulnerability|vulnerability]]
+**physical**: carried out directly exploiting a hardware [[hardware/_intro/hardware vulnerability|hardware vulnerability]]
 
 # modality
 

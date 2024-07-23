@@ -1,4 +1,4 @@
-[[hardware/_intro/vulnerability|vulnerability]]
+[[hardware/_intro/hardware vulnerability|hardware vulnerability]]
 [[hardware/VLSI and IP/Intellectual Properties|IP]]
 
 >Hide a signature in an IP

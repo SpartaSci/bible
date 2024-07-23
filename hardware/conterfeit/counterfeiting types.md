@@ -12,10 +12,10 @@ The challenge with Recycled components is that their exact position on the [[har
 **Out-of-Spec Defective**, after the components are produced, they go through some quality [[hardware/watermarking/testing|testing]] to ensure they match the specification described during the first step in the [[hardware/_intro/chain/design flow|design flow]], they may lack in performance or functionality
 
 
-**Cloned** components may mimic the original's functionality but often lack the reliability and longevity. It is based on [[hardware/attack taxonomy/invasive attacks/reverse engineering|reverse engineering]] or stealing [[hardware/_intro/vulnerability|pirate IP]] 
+**Cloned** components may mimic the original's functionality but often lack the reliability and longevity. It is based on [[hardware/attack taxonomy/invasive attacks/reverse engineering|reverse engineering]] or stealing [[hardware/_intro/hardware vulnerability|pirate IP]] 
 
 
-**Tampered**: components modified to cause damage or make unauthorized alterations (introduce [[hardware/_intro/vulnerability|backdoors]]) [[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]
+**Tampered**: components modified to cause damage or make unauthorized alterations (introduce [[hardware/_intro/hardware vulnerability|backdoors]]) [[hardware/_intro/Tamper-resistant devices|Tamper-resistant devices]]
 
 
 

@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "666b03b2ed3142e7",
+        "id": "b354f853c73aa5cf",
         "type": "tabs",
         "children": [
           {
-            "id": "a59c55f3ce9d9a99",
+            "id": "b24a42d4511b2150",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "network security/Monitoring/_Network Security Monitoring.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e31cfd5930661646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grou",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +139,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,36 +160,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a59c55f3ce9d9a99",
+  "active": "e31cfd5930661646",
   "lastOpenFiles": [
-    "README.md",
-    "crypto/Elliptic curve.md",
-    "crypto/equivalent classes.md",
-    "crypto/Euclidean Algorithm.md",
-    "crypto/Extension Field Arithmetic.md",
-    "crypto/Finite Field.md",
-    "crypto/Finite Groups.md",
-    "crypto/Prime Field Arithmetic.md",
-    "crypto/modular arithmetic.md",
-    "crypto/random numbers.md",
-    "crypto/Elgamal encryption.md",
-    "crypto/cyclic groups.md",
-    "crypto/Linear Feedback Shift Registers LFSRs.md",
-    "crypto/Euler's Phi Function.md",
-    "hardware/conterfeit/counterfeiting types.md",
-    "hardware/conterfeit/_counterfeiting.md",
-    "crypto/digital signature.md",
-    "crypto/public key/RSA.md",
-    "crypto/_crypto.md",
-    "crypto/_math/Group.md",
-    "crypto/_math",
-    "crypto/symmetric/stream/stream ciphers.md",
-    "crypto/symmetric/stream/_stream cipher.md",
-    "crypto/symmetric/_symmetric cryptography.md",
-    "crypto/symmetric/block/_block cipher.md",
-    "crypto/symmetric/block/AES.md",
-    "crypto/symmetric/block/DES.md",
-    "crypto/symm",
+    "network security/Firewalls/resolution strategy.md",
+    "network security/Firewalls/access control list.md",
+    "network security/Firewalls/_firewall.md",
+    "network security/Firewalls/solutions and architecture.md",
+    "network security/Firewalls/type of firewall.md",
+    "network security/Firewalls/filtering firewall/filtering firewall.md",
+    "network security/Firewalls/filtering firewall/packet filter.md",
+    "network security/Firewalls/statefull firewall/stateful firewall.md",
+    "network security/Firewalls/proxy firewall/proxy firewalls.md",
+    "network security/VPN/GRE - Generic Routing Encapsulation.md",
+    "network security/Monitoring/IDS - Intrusion Detection System.md",
+    "network security/Monitoring/Network Intrusion Detection and Analysis.md",
+    "network security/Monitoring/_Network Security Monitoring.md",
+    "network security/Monitoring/Security Event Logging.md",
+    "network security/Monitoring/Security Information and Event Management.md",
+    "network security/_network security.md",
+    "network security/Monitoring",
+    "network security/Cloud Computing/Cloud Protection.md",
+    "network security/Cloud Computing/Compliance.md",
+    "network security/Cloud Computing/_Cloud Computing Security.md",
+    "network security/Cloud Computing/SECaaS - Security as a Service.md",
+    "network/Cloud Delivery Model.md",
+    "network security/Cloud Computing/Cloud Security Models.md",
+    "network security/Cloud Computing/Cloud problems/Cloud Attacks.md",
+    "cybersec/_problem/attack.md",
+    "network security/Cloud Computing/Cloud problems/Cloud Issues.md",
+    "cybersec/attacks/Hyperjacking.md",
+    "network security/Cloud Computing/Cloud problems",
+    "cybersec/_problem",
+    "network",
+    "network security/Cloud Computing",
+    "network security/VPN/L2 - Layer2",
+    "network security/VPN/L4 - SSL",
+    "network security/VPN/L3 - IPsec",
+    "network/Firewalls/Untitled.canvas",
+    "network security/Firewalls/proxy firewall",
+    "network security/Firewalls/statefull firewall",
     "crypto/images/permutation.png",
     "crypto/images/expansor.png",
     "crypto/images/des_3.png",
@@ -178,14 +209,6 @@
     "crypto/images/Screenshot from 2024-06-26 16-09-44.png",
     "crypto/images/Screenshot from 2024-06-26 16-09-24.png",
     "crypto/images/Screenshot from 2024-06-26 16-08-50.png",
-    "crypto/images",
-    "wireless/WPAN - bluetooth/security/pairing",
-    "wireless/WPAN - bluetooth/security",
-    "wireless/WWAN - mobile/3G - UMTS - security",
-    "wireless/WWAN - mobile/GSM - security",
-    "wireless/WWAN - mobile/_common",
-    "wireless/WWAN - mobile/4G",
-    "wireless/WWAN - mobile/3G - UMTS/RAN",
     "hardware/security/Untitled.canvas"
   ]
 }
