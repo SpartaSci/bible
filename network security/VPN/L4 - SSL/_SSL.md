@@ -1,9 +1,16 @@
+---
+tags:
+  - network
+aliases:
+  - SSL
+  - TSL
+---
 
 In real-world scenarios, VPNs at Layer 4 commonly use SSL instead of IPSec. [[network security/VPN/L3 - IPsec/_IPsec|IPsec]] is considered *too complex* and expensive to securely implement. Moreover, *IPSec operates in kernel space*, which can lead to potentially catastrophic failures, and its installation is difficult and risky, especially for normal users.
 
-[[network security/VPN/L4 - SSL/SSL|SSL]] is preferred due to its *lower complexity* in terms of installation, configuration, and management. Additionally, SSL does not operate in kernel space, which enhances security.
+**SSL** is preferred due to its *lower complexity* in terms of installation, configuration, and management. Additionally, SSL does not operate in kernel space, which enhances security.
 
-Using SSL eliminates issues such as NAT traversal problems, the need for IP header authentication, and the encryption of ports required by IPSec ESP. However, it also means that packets dropped at a higher layer are more challenging to manage, which is critical in defending against Denial of Service (DoS) attacks where attackers can delete packets at higher layers.
+Using SSL eliminates issues such as [[network/NAT - Network address translation|NAT]] traversal problems, the need for IP header authentication, and the encryption of ports required by IPSec ESP. However, it also means that packets dropped at a higher layer are more challenging to manage, which is critical in defending against Denial of Service (DoS) attacks where attackers can delete packets at higher layers.
 
 The main issues with SSL-based VPNs include:
 - Interoperability: VPNs should ideally be interoperable, but proprietary VPNs can hinder this.
@@ -18,7 +25,7 @@ In summary, SSL VPNs are versatile and can function in various network scenarios
 
 There can be different SSL Pseudo VPN (**SSL VPN flavors**):
 
-**Network extension**: it is similar to Site-to-Site connectivity because it implies that a tunnel over SSL between two sites (gateways maybe) is established and the connection is secure only in that tunnel. This is the only type of SSL VPN that can be considered a *real VPN*.
+**Network extension**: it is similar to [[network security/VPN/_VPN#^a4eb2a|Site-to-Site]] connectivity because it implies that a tunnel over SSL between two sites (gateways maybe) is established and the connection is secure only in that tunnel. This is the only type of SSL VPN that can be considered a *real VPN*.
 
 **SSL’ed Protocols**: an original protocol is put over TLS and this means that the protocol starts to be secure. For example POP-over-SSL or HTTP or IMAP and so on. In this case, the client must be able to open a SSL tunnel (for example in network extension is not mandatory for the client).
 

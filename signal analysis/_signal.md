@@ -15,17 +15,20 @@ $$P(x) = \lim_{a\to\infty} \frac{1}{2a} \int_{-a}^{a}\lvert x(t) \rvert^2 dt  $$
 
 
 # bandwidth
-![[signal analysis/bandwidth|bandwidth]]
+[[signal analysis/bandwidth|bandwidth]]
 
 
 # modulation
 %%multiplying a signal by a sinusoidal function, result in a frequency shift. Therefore, the spectrum in the frequency domain is shifted %%
 > is the process of varying one or more properties of a periodic waveform, called **carrier signal** with a separate signal called th **modulation signal** that typically contains information to be transmitted.
 
-| ![[signal analysis/modulation/analog carrier/analog data modulation\|analog data modulation]] | ![[signal analysis/modulation/analog carrier/digital data modulation\|digital data modulation]]<br> |
-| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 
-![[signal analysis/modulation/PAM - Pulse Amplitude Modulation|PAM - Pulse Amplitude Modulation]]
+[[signal analysis/modulation/analog carrier/analog data modulation|analog data modulation]]
+
+[[signal analysis/modulation/analog carrier/digital data modulation|digital data modulation]]
+
+[[signal analysis/modulation/PAM - Pulse Amplitude Modulation|PAM - Pulse Amplitude Modulation]]
+
 [[signal analysis/modulation/Two-dimensional modulations|Two-dimensional modulations]]
 
 
@@ -35,4 +38,4 @@ $$P(x) = \lim_{a\to\infty} \frac{1}{2a} \int_{-a}^{a}\lvert x(t) \rvert^2 dt  $$
 
 
 
-![[signal analysis/signal multiplexing|signal multiplexing]]
+[[signal analysis/signal multiplexing|signal multiplexing]]

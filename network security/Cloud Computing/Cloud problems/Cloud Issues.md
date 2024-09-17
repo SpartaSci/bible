@@ -6,8 +6,7 @@
 The most important cloud security issues are related to:
 
 ## Storage and Computing
-data is a vital part of cloud computing. Customers are often averse to putting their data in the hands of a third-party storage service provider for fear that the data could be tampered with or used without permission. For customers is important
-that their data are consistent during computation, confidential at every stage of processing and perpetually stored to update the records.
+data is a vital part of cloud computing. Customers are often averse to putting their data in the hands of a third-party storage service provider for fear that the data could be tampered with or used without permission. For customers is important that their data are consistent during computation, confidential at every stage of processing and perpetually stored to update the records.
 
 The main issue of **data storage** is the loss of control of data, called **data breach**. It is hard to detect a data breach because the cloud computing model doesn’t provide full control over the data (un-trusted computing) and it is harder to check data integrity and confidentiality. Moreover some cloud storage providers can store data data through the ”multi-location” approach around the world; this can cause different problems related to security threats and legal problems because each location can have different policies.
 

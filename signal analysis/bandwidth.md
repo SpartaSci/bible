@@ -1,7 +1,15 @@
 
 > is the interval of frequencies occupied by a signal
 
+
+
+
 most popular definition are related to $\lvert X(f)^2\rvert$ like the 3dB Bandwidth
+
+
+> [!attention] why 3db
+> Because finite duration signals have infinite support in the frequency domain.
+
 
 **baseband signals**: signals whose frequency spectrum is concentrated around zero
 

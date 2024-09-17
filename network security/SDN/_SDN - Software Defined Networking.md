@@ -4,7 +4,7 @@ tags:
 aliases:
   - SDN
 ---
-> The new idea for network architecture is that there is a single orchestrator (centralized) who decides hoe packets should be forwarded and then send the information to the routers for them to operate according to its choices  
+> The new idea for network architecture is that there is a single orchestrator (centralized) who decides how packets should be forwarded and then send the information to the routers for them to operate according to its choices  
 
 
 A network device can be logically partitioned into:
@@ -23,7 +23,16 @@ The **SDN** separates the control plane from the data plane and the control plan
 
 **Centralized control**: the software views the entire network and can easily control it. Moreover, the SDN controller can perform also a big switch abstraction to hide internal details on the network.
 The centralized controller can be a **logically centralized controller** in terms of different devices (physically separated) that perform different operations for the purpose to create the routing tables to distribute.
-- **advantages**: the controller is more sca
+- **advantages**: the controller is more scalable, robust and faster in the decisions
+- **Disadvantages**: create a controller is more complex because of the CAP theorem. This theorem says that *a distribute data store cannot simultaneously provide more than two out of the following three guarantees: Consistency, Availability and Partition tolerance*
 
 
-**Context-based forwarding**: it implies that the controller can take decision at run-time, based on the actual traffic. The switch can send a packet to the controller where the controller application will determine how to handle that traffic in that specific moment based on the network traffic or other measures
+
+**Context-based forwarding**: it implies that the controller can take decision at run-time, based on the actual traffic. The switch can send a packet to the controller where the controller application will determine how to handle that traffic in that specific moment based on the network traffic or other measures.
+This one is not originally present in SDN but nowadays yes.
+
+[[network security/SDN/OpenFlow|OpenFlow]]
+
+[[network security/SDN/The SDN Approach|The SDN Approach]]
+
+Application of SDN to [[network security/SDN/SFCs|SFCs]]

@@ -48,7 +48,7 @@ An individual [[network security/VPN/L3 - IPsec/Security Association|SA]] can im
 
 **Transport adjacency**: This refers to applying more than one security protocol to the same IP packet without invoking tunneling. This approach allows for only one level of combination because further nesting yields no added benefit, as the processing is performed at one IPSec instance: the ultimate destination.
 
-Another way to apply authentication after encryption is to use two bundled transport SAs, with the inner being an ESP SA and the outer being an AH SA
+Another way to apply [[cybersec/authentication/Authentication after Encryption|authentication after encryption]] is to use two bundled transport SAs, with the inner being an ESP SA and the outer being an AH SA
 - In this case ESP is used without its authentication option
 - Encryption is applied to the IP payload
 - AH is then applied in transport mode

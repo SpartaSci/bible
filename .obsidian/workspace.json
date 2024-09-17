@@ -4,11 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "b354f853c73aa5cf",
+        "id": "4d54fad8abb8e673",
         "type": "tabs",
         "children": [
           {
-            "id": "b24a42d4511b2150",
+            "id": "7a52d940b418b00f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network security/_network security.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b391446632bb091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network security/Monitoring/Network Intrusion Detection and Analysis.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df127d4c9db255dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,13 +47,26 @@
             }
           },
           {
-            "id": "e31cfd5930661646",
+            "id": "933abe86c7266970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
-                "mode": "source",
+                "file": "network security/Cloud Computing/Cloud problems/Cloud Issues.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9a203b1c1c5ec39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network security/Cloud Computing/Cloud problems/Cloud Threats.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -63,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "NAT",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
+                "file": "network security/Monitoring/Network Intrusion Detection and Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md",
+                "file": "network security/Monitoring/Network Intrusion Detection and Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,11 +179,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network security/Firewalls/proxy firewall/proxy firewalls.md"
+                "file": "network security/Monitoring/Network Intrusion Detection and Analysis.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,45 +200,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e31cfd5930661646",
+  "active": "7b391446632bb091",
   "lastOpenFiles": [
-    "network security/Firewalls/resolution strategy.md",
-    "network security/Firewalls/access control list.md",
-    "network security/Firewalls/_firewall.md",
-    "network security/Firewalls/solutions and architecture.md",
-    "network security/Firewalls/type of firewall.md",
-    "network security/Firewalls/filtering firewall/filtering firewall.md",
-    "network security/Firewalls/filtering firewall/packet filter.md",
-    "network security/Firewalls/statefull firewall/stateful firewall.md",
-    "network security/Firewalls/proxy firewall/proxy firewalls.md",
-    "network security/VPN/GRE - Generic Routing Encapsulation.md",
-    "network security/Monitoring/IDS - Intrusion Detection System.md",
-    "network security/Monitoring/Network Intrusion Detection and Analysis.md",
     "network security/Monitoring/_Network Security Monitoring.md",
-    "network security/Monitoring/Security Event Logging.md",
     "network security/Monitoring/Security Information and Event Management.md",
+    "network security/Monitoring/Security Event Logging.md",
     "network security/_network security.md",
-    "network security/Monitoring",
-    "network security/Cloud Computing/Cloud Protection.md",
-    "network security/Cloud Computing/Compliance.md",
-    "network security/Cloud Computing/_Cloud Computing Security.md",
-    "network security/Cloud Computing/SECaaS - Security as a Service.md",
-    "network/Cloud Delivery Model.md",
-    "network security/Cloud Computing/Cloud Security Models.md",
-    "network security/Cloud Computing/Cloud problems/Cloud Attacks.md",
-    "cybersec/_problem/attack.md",
+    "network security/Cloud Computing/Cloud problems/Cloud Threats.md",
     "network security/Cloud Computing/Cloud problems/Cloud Issues.md",
-    "cybersec/attacks/Hyperjacking.md",
+    "network security/Cloud Computing/Compliance.md",
+    "network security/Cloud Computing/Cloud Protection.md",
+    "network/Cloud Delivery Model.md",
+    "network security/Cloud Computing/_Cloud Computing Security.md",
+    "network security/Cloud Computing/Cloud problems/Cloud Attacks.md",
+    "network security/Cloud Computing/Cloud problems/Cloud Vulnerabilities.md",
+    "network security/Cloud Computing/Cloud Security Models.md",
+    "network/SaaS.md",
+    "network security/Cloud Computing/Cloud Cube Model.md",
+    "network security/VPN/VPN gateway positioning.md",
+    "network security/VPN/L4 - SSL/_SSL.md",
+    "network security/SDN/OpenFlow.md",
+    "network/NAT - Network address translation.md",
+    "network security/VPN/_VPN.md",
+    "network security/Firewalls/_firewall.md",
+    "network security/VPN/L3 - IPsec/_IPsec.md",
+    "cybersec/authentication/Authentication after Encryption.md",
+    "network security/VPN/L3 - IPsec/Encapsulation Security Payload.md",
+    "network security/VPN/L3 - IPsec/Authentication Header.md",
+    "network security/VPN/L3 - IPsec/Security Policy Database.md",
+    "network security/Firewalls/anomalies/conflict",
+    "network security/Firewalls/anomalies/subOptimization",
+    "network security/Firewalls/anomalies",
+    "network security/Firewalls/firewall.jpg",
+    "network security/Firewalls/firewall",
+    "network security/netSec",
+    "network security/Monitoring",
     "network security/Cloud Computing/Cloud problems",
     "cybersec/_problem",
     "network",
     "network security/Cloud Computing",
-    "network security/VPN/L2 - Layer2",
-    "network security/VPN/L4 - SSL",
-    "network security/VPN/L3 - IPsec",
     "network/Firewalls/Untitled.canvas",
-    "network security/Firewalls/proxy firewall",
-    "network security/Firewalls/statefull firewall",
     "crypto/images/permutation.png",
     "crypto/images/expansor.png",
     "crypto/images/des_3.png",
@@ -208,7 +249,6 @@
     "crypto/images/Screenshot from 2024-06-26 16-10-09.png",
     "crypto/images/Screenshot from 2024-06-26 16-09-44.png",
     "crypto/images/Screenshot from 2024-06-26 16-09-24.png",
-    "crypto/images/Screenshot from 2024-06-26 16-08-50.png",
     "hardware/security/Untitled.canvas"
   ]
 }

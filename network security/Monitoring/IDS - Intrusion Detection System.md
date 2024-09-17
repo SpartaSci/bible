@@ -4,7 +4,12 @@ tags:
   - authorization
 aliases:
   - IDS
+cssclasses: []
 ---
+
+QUESTO TESTO FA RIFERIMENTO A ISS, per Network fare riferimento a [[network security/Monitoring/Network Intrusion Detection and Analysis|Network Intrusion Detection and Analysis]]
+
+
 > IDS is a system designed to identify actors using a computer or a network without #authorization 
 
 IDS is based on a crucial hypothesis: **the behavioral pattern of non-authorized users differs from that of authorized ones**

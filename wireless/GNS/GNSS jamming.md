@@ -18,13 +18,20 @@ Mass-market jammers usually aim at disturbing a wide band by [[signal analysis/m
 
 # methods to detect Jamming
 
-
+in brief
+Which technique can help detect GNSS jamming?
+Cross-checking GNSS signals with other GNSS constellations.
+Comparing GNSS data with inertial navigation systems (INS).
+Using a directional antenna to identify the source of the signal.
 
 ## signal-to-noise monitoring
 
 The interference can be modeled as an **additional contribution to the noise** variance. 
 The receiver assumes that only **degrading source** is *uncorrelated thermal noise*
 The receiver can define a statistical **threshold** based on $C/N0$ parameters
+
+**SNR Measurements**: High variations in the Signal-to-Noise Ratio (SNR) can be used to detect interference signals that affect the overall signal quality and are directly measured by the receiver. High spectral noise will degrade signal performance, causing a change in the SNR. This method is moderately accurate and fast.
+
 
 ## spectral analysis 
 The GNSS signal is weak and usually its spectrum is centered on the IF frequency at 4.1302 MHz.

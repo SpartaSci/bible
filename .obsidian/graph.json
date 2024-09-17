@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"network security\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -9,14 +9,14 @@
   "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.7,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.35052083333333,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0,
+  "repelStrength": 0,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.48616477064062097,
+  "linkDistance": 179,
+  "scale": 0.6932076338616471,
   "close": false
 }

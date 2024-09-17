@@ -1,3 +1,7 @@
+> An **Access Control List (ACL)** is a set of [[network security/Firewalls/Firewall Rule|rules]]. It can be configured as Denylist, AllowList or General.
+> 
+
+
 ### Denylist
 > All that is not explicitly forbidden is permitted
 
@@ -6,20 +10,19 @@ A Denylist (or disallowlist, blocklist) is access control mechanism that allows 
 - More easy to manage
 
 All Rule’s Actions are Deny
-The default action is Allow
+The [[network security/Firewalls/default action|default action]] is Allow
 
 
 ### Allowlist
 > All that is not explicitly permitted is forbidden
 
 
-In an allowlist (or passlist, acceptedlist, welcome list) configuration only
-items on the list are let through whatever gate is being used.
+In an allowlist (or passlist, acceptedlist, welcome list) configuration only items on the list are let through whatever gate is being used.
 - Higher security
 - More difficult to manage
 
 All Rule’s Actions are Allow
-The default action is Deny
+The [[network security/Firewalls/default action|default action]] is Deny
 
 ### Firewall General Access Control List
 - All Rule’s Actions can be either Allow or Deny

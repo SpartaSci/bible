@@ -1,7 +1,5 @@
-### Filtering
 
-
-#### Packet Filter Firewall
+# Packet Filter Firewall
 - Filtering rules based on information in the IP packet header
 - IP source address
 - IP destination address

@@ -1,5 +1,5 @@
 # Stateful firewalls
-A traditional packet filter makes filtering decisions on an individual packet basis and does not take into consideration any higher-layer context.
+A traditional [[network security/Firewalls/filtering firewall/Packet Filter|Packet Filter]] makes filtering decisions on an individual packet basis and does not take into consideration any higher-layer context.
 To understand what is meant by context and why a traditional packet filter is limited with regard to context, a little background is needed.
 Indeed, most standardized applications that run on top of TCP follow a client/server model.
 
@@ -20,12 +20,12 @@ Indeed, most standardized applications that run on top of TCP follow a client/se
 
 Stateful filtering, also referred to as connection-state filtering, keeps track of connections between an internal host and an external host.
 
-A connection state (or state, for short) indicates whether it is a TCP connection or a UDP connection and whether the connection is established, and are stored in a state table.
+> A **connection state** (or state, for short) indicates whether it is a TCP connection or a UDP connection and whether the connection is established, and are stored in a state table.
 
-When a packet arrives, whether it is an ingress packet or an egress packet, the stateful filtering firewall checks whether the packet belongs to an existing connection against its state table.
-- If yes, the firewall allows the packet to pass through and saves the information (such as its TCP sequence number) for later use.
-- If the packet is a SYN packet, the firewall creates a new entry in the state table.
-- If the packet does not belong to an existing connection and it is not a SYN packet, the firewall will discard it.
+When a packet arrives, whether it is an ingress packet or an egress packet, the stateful filtering firewall **checks** whether the packet belongs to an **existing connection** against its state table.
+- **If yes**, the firewall allows the packet to pass through and saves the information (such as its TCP sequence number) for later use.
+- **If the packet is a SYN packet**, the firewall creates a new entry in the state table.
+- **If the packet does not belong to an existing connection** and it is not a SYN packet, the firewall will discard it.
 - When a network connection ends, the connection state is removed from the state table.
 
 #### iptables
