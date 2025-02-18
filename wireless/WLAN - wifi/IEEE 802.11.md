@@ -41,6 +41,7 @@ No data encryption or security is available in this stage. It is initiated by th
 2. an *authentication response* from the AP with a success or failure message
 Shared key authentication: a shared key, or passphrase, is manually set on both the mobile device and the AP. ([[wireless/WLAN - wifi/Security/WEP - Wired Equivalent Privacy|WEP]],[[wireless/WLAN - wifi/Security/802.11i|WPA]])
 
+Authentication can happen with multiple APs in case of an infrastructure with multiple APs ([[wireless/network/WLAN - Wireless Local Area Networks#^244be9|ESS]]) **ESSID**
 # association
 >once authentication is complete, a mobile devices ([[wireless/WLAN - wifi/Wireless stations|STA]]) can associate and register with **one** [[wireless/WLAN - wifi/Access point|AP]] to gain full access to the network.
 
@@ -68,7 +69,7 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 
 **Power management**: 
 - node inform AP that is going into *sleep mode* until next **beacon** frame
-- AP knows not to transmit frames to this node, and will buffer them. Node will wake up before next **beacon** frame
+- AP knows not to transmit frames to this node, and will buffer them. Node will wake up before next **beacon** frame (remember that is sended periodically, so synchronization is important)
 
 **TIM** (traffic indication map) is a period packet sent by AP (with the [[wireless/WLAN - wifi/IEEE 802.11|beacon]]) to notify client of buffered data, stating to which nodes the AP needs to send data, therefore, those nodes need to stay awake, it relies on synchronization of packets so client is awake then the TIM is sent.
 
@@ -78,7 +79,7 @@ Association only occurs on **wireless infrastructure networks**, not in peer-to-
 
 There are 3 possible attacks on Power Saving:
 - attacker can **spoof on behalf of the AP the TIM message**: client could think there is no data for itself and therefore it can go to sleep
-- attacker **forges management synchronization packets**, this will cause the client to fall out of synchronization with the AP
+- attacker **forges management synchronization packets**, this will cause the client to fall out of synchronization with the AP (remember beacons). As a result, the STA will not wake up in time for the beacon and will not be able to correctly receive the frames.
 - attacker **spoofs itself on behalf of the client**:
 	- The attacker impersonates the victim station, this is possible as it only needs to know the AP and the victim MAC address.
 	- *client sleeping*:  Meaning that the attacker will forge the message that the specific attacked node is not sleeping, when in reality it is, therefore, AP will send data while the client is sleeping. **packets** directed to it **will not be processed**.

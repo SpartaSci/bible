@@ -1,9 +1,9 @@
-To obtain cloud protection, the main security principles, such as [[network security/_network security#security by design|Security by design]], [[network security/_network security#zero trust|Zero Trust]] and [[network security/_network security#open design|Open Design]] Principle, can be used. But, the NIST specified some Guidelines on Cloud Security for managing security and privacy issues in cloud computing.
+To obtain cloud protection, the main security principles, such as [[network security/netSec/main security principles#security by design|security by design]], [[network security/netSec/main security principles#zero trust|zero trust]] and [[network security/netSec/main security principles#open design|open design]] Principle, can be used. But, the NIST specified some Guidelines on Cloud Security for managing security and privacy issues in cloud computing.
 
 The key **guidelines** include:
 - Carefully plan the security and privacy aspects of cloud computing solutions before implementing them.
 - Define the [[network/Cloud Delivery Model|Cloud Delivery Model]] to be used.
-- Ensure that a cloud computing solution—both cloud resources and cloud-based applications—satisfy organizational security and privacy requirements.
+- Ensure that a cloud computing solution both cloud resources and cloud-based applications satisfy organizational security and privacy requirements.
 - Maintain accountability (or responsibility) over the privacy and security of data and applications deployed in public cloud computing environments.
 
 

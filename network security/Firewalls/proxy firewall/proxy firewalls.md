@@ -1,6 +1,7 @@
  > A **proxy server** is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource
 
 Instead of connecting directly to a server that can fulfill a request for a resource, such as a file or web page, the client directs the request to the proxy server, which evaluates the request and performs the required network transactions.
+It can offer anonymization of the client when forwarding the request the server 
 
 **Open proxy**: it is a proxy that exists on the internet and it is not in our network
 **Reverse proxies**:it is a proxy that is present in our internal network 

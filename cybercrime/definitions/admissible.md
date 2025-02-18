@@ -1,0 +1,1 @@
+>  compliant with law and best practices; evidence can be inadmissible if obtained by violating the rights of the owner, for example.

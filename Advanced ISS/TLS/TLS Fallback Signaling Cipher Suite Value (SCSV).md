@@ -1,0 +1,12 @@
+- RFC-7507;
+- to prevent [[Advanced ISS/TLS/TLS attacks/TLS downgrade problem|protocol downgrade attacks]];
+- cipher suite = set of negotiated algorithms;
+- new (dummy) cipher suite TLS_FALLBACK_SCSV:
+	- SHOULD be sent by the client when opening a downgraded connection (as last in cipher suite list);
+- new fatal Alert value inappropriate_fallback:
+	- MUST be sent by the server when receiving TLS_FALLBACK_SCSV and a version lower than the highest one supported;
+	- then the channel is closed and the client should retry with its highest protocol version;
+- many servers do not yet support SCSV;
+- ...but most servers have fixed their bad behaviour when the client requests a version higher than the supported one (they don’t close the channel);
+- ...so browsers can now disable insecure downgrade:
+- Firefox (from 2015) and Chrome (from 2016)

@@ -4,7 +4,7 @@ aliases:
 ---
 Due to the difficulty of creating a secure cloud environment, Security as-a-Service (SECaaS) was developed.
 
-**Security as a Service** is a package of security services offered by a service (cloud) provider that offloads much of the security responsibility from a company to the security service provider.
+>**Security as a Service** is a package of security services offered by a service (cloud) provider that offloads much of the security responsibility from a company to the security service provider.
 
 SECaaS can be considered a specific type of Software as a Service ([[network/SaaS|SaaS]]). SECaaS is available on-demand, since it can provide more or fewer services, changing the price accordingly (the more you use, the more you pay); and over the network of the cloud (security) provider.
 

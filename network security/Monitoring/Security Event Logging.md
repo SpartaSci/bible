@@ -1,8 +1,8 @@
 # Security Event Logging
 
 In the information security field:
-- **Security event**: an occurrence considered by an organization to have potential security implications to a system or its environment. Security events identify suspicious or anomalous activity. Events sometimes provide indications that incidents are occurring.
-- **Security incident**: an occurrence that actually or potentially:
+- **Security event**: an occurrence considered by an organization to have potential security implications to a system or its environment. *Security events identify suspicious or anomalous activity*. Events sometimes provide indications that incidents are occurring. ^4bb7f4
+- **Security incident**: an occurrence that actually or potentially: ^f8ed11
 	- jeopardizes the confidentiality, integrity, or availability of an information system;
 	- jeopardizes the information the system processes, stores, or transmits;
 	- constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies.

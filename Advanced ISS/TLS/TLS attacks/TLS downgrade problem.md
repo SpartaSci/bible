@@ -1,0 +1,21 @@
+
+- client sends (in ClientHello) the highest supported version;
+- server notifies (in ServerHello) the version to be used (highest in common with client);
+- normal version negotiation:
+	- agreement on TLS-1.2:
+		- (C → S) 3.3;
+		- (S → C) 3.3
+	- fallback to TLS-1.1 (e.g. no TLS-1.2 at server):
+		- (C → S) 3.3;
+		- (S → C) 3.2;
+- version major and minor numbers in TSL continue the version numbering of SSL:
+	- TLS-1.0 = SSL-3.1;
+	- TLS-1.1 = SSL-3.2;
+	- TLS-1.2 = SSL-3.3;
+- (insecure) downgrade:
+	- some servers do not send the correct response, rather they close the connection...
+	- then the client has no choice but to try again with a lower protocol version;
+- downgrade attack:
+	- attacker (MITM) sends fake server responses, to force repeated downgrade until reaching a vulnerable version (e.g., SSL-3);
+	- then execute a suitable attack (e.g., [[Advanced ISS/TLS/TLS attacks/POODLE|POODLE]]);
+- not always an attack (e.g., connection with the server closed due to a network problem);

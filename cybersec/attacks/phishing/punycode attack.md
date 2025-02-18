@@ -1,0 +1,2 @@
+> Punycode is **the solution that converts words that cannot be written in ASCII, used primarily for Internet domain names**. This way, words such as München and Cafés may still be represented. Essentially, Punycode makes it possible to register domains with foreign characters.
+> 

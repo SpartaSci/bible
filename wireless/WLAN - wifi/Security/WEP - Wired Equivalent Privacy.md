@@ -95,11 +95,12 @@ $$CRC(x \ XOR \ y) = CRC(x) \ XOR \ CRC(y)$$
 
 Therefore if an attacker modifies the message, he can compute the CRC of the modified message, and then XOR it with the initial valid CRC. This is equivalent to both modifying the payload and the CRC **without knowing the K**
 
+[[wireless/WLAN - wifi/Security/Chop Chop attack|Chop Chop attack]]
 ## confidentiality and IV
 
-IV reuse, IV is long 24 bits, after $2^{24}$ messages to encrypt, a previously used IV will be re-encountered, allow to build a decryption table for statistical attacks
+**IV reuse**, IV is long 24 bits, after $2^{24}$ messages to encrypt, a previously used IV will be re-encountered, allow to build a decryption table for statistical attacks
 
 **Weak shared key**: for some seed values, called weak key, the beginning of the RC4 output is not random, therefore, the first few bytes of the output reveals a lot of information about the key.
 
-[[wireless/WLAN - wifi/Security/Chop Chop attack|Chop Chop attack]]
+
 

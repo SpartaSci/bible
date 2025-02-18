@@ -1,0 +1,1 @@
+> **Audit trails** are detailed records of all activities and transactions within a system, providing a chronological log of what has happened across critical components, such as who accessed data, what changes were made, and when.

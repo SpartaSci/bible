@@ -42,12 +42,12 @@ Other
 
 
 [[network security/Firewalls/anomalies/Firewall Policy Rules Anomaly|Firewall Policy Rules Anomaly]]
-
-1. [[network security/Firewalls/anomalies/conflict|conflict]]:
+1. [[network security/Firewalls/anomalies/Firewall Policy Rules Anomaly#^e948e7|Errors]]
+2. [[network security/Firewalls/anomalies/conflict|conflict]]:
 	1. [[network security/Firewalls/anomalies/conflict#^447db5|Contradiction Anomaly]]
 	2. [[network security/Firewalls/anomalies/conflict#^e1bfcd|Shadowing Conflict Anomaly]]
 	3. [[network security/Firewalls/anomalies/conflict#^900735|Correlation Anomaly]]
-2. [[network security/Firewalls/anomalies/sub-optimization|sub-optimization]] 
+3. [[network security/Firewalls/anomalies/sub-optimization|sub-optimization]] 
 	1. [[network security/Firewalls/anomalies/sub-optimization#^752652|Irrelevance]]
 	2. [[network security/Firewalls/anomalies/sub-optimization#^812c84|Duplication]]
 	3. [[network security/Firewalls/anomalies/sub-optimization#^3da8f1|Shadowing Redundancy Anomaly]]

@@ -1,0 +1,1 @@
+> it is a tool (hardware or software one) used to **prevent any data from being written to a storage device during acquisition and analysis**, preserving the original data content. If you modify data during the acquisition, nothing will be admissible later because you cannot prove the correctness of nothing.

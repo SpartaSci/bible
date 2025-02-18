@@ -7,7 +7,7 @@ There are different types of anomalies:
 
 For the Intra-policy
 
-1. **Error**: it occurs when the attempt to enforce the policy actions fail (e.g. an action is not supported, a type of syntax is not supported). This type of anomalies are simple to detect and solve.
+1. **Error**: it occurs when the attempt to enforce the policy actions fail (e.g. an action is not supported, a type of syntax is not supported). This type of anomalies are simple to detect and solve. ^e948e7
 2. [[network security/Firewalls/anomalies/conflict|conflict]]: it arises when the effect of one security policy is influenced or altered by another one (e.g. two different rules, one the opposite of the other, that are both satisfied simultaneously). The policy systems must provide conflict detection and avoidance or resolution mechanisms to prevent this situation.
 	1. [[network security/Firewalls/anomalies/conflict#^447db5|Contradiction Anomaly]]
 	2. [[network security/Firewalls/anomalies/conflict#^e1bfcd|Shadowing Conflict Anomaly]]

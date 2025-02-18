@@ -6,7 +6,7 @@ Compliance agreements can be made between a **Cloud Service Provider** and **ser
 
 To maintain compliance requirements, **system auditing** and **system monitoring** can be performed. These tasks in cloud computing can be done either by the provider or the consumer in order to observe events, understand performance, maintain system integrity, and assess whether all policies are being satisfied.
 
-**System audit** is a regular activity to evaluate system performance, security controls, information privacy, compliance, and so on. In other words, an audit is a function that checks that standards, methods, or practices are followed. 
+**System audit** is a regular activity to evaluate system performance, security controls, information privacy, compliance, and so on. In other words, *an audit is a function that checks that standards, methods, or practices are followed*. 
 The audit can be:
 - **Internal audit**: This is performed by employees (auditors internal to the organization). Their purposes are to identify the risks related to performance, security, and compliance issues and to try to put in place countermeasures to mitigate those issues.
 - **External audit**: This is performed by professional auditors external to the organization. Typically, external auditing is done by the organization to build confidence among clients and shareholders.

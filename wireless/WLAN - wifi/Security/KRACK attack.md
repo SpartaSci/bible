@@ -14,6 +14,8 @@ KRACK may also be launched against [[wireless/WLAN - wifi/Security/802.11i#SRN -
 
 
 
+
+
 Firstly the weakness lies in the fact that after the AP passes by sending message 3 the MIC check, the client **already trust** the AP and installs the PTK. Therefore, **the plaintext re-transmission of the 3rd key installation message** is of the utmost importance in this attack
 
 1. the adversary uses a channel-based MITM attack so it can **manipulate handshake** message. Specifically, its intent is to **block message 4** from arriving  at the *authenticator* AP

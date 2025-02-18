@@ -17,8 +17,11 @@ The most **important factors** of having an IDS are:
 
 
 **Two measures** can be used to evaluate an IDS:
-- **Precision**: it is also called positive predictive value and it indicates the number of relevant instances out of the total instances detected.
-- **Recall**: it is also called sensitivity and it indicates the number of relevant instances out of the total relevant instances.
+- **Precision**: it is also called *positive predictive value* and it indicates the number of relevant instances out of the total instances detected.
+- **Recall**: it is also called *sensitivity* and it indicates the number of relevant instances out of the total relevant instances.
+
+
+Sometimes, an IDS (Intrusion Detection System) mistakenly identifies authorized users as intruders; these mistakes are called **false positives**. To reduce false positives, the IDS can be adjusted, but this adjustment might result in more **false negatives**, meaning some real intruders won’t be detected.
 
 
 

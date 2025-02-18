@@ -1,0 +1,1 @@
+> a **memory dump** is a snapshot of the contents of a computer’s RAM at a specific point in time and it is acquired in a forensic way, so bit-by-bit.

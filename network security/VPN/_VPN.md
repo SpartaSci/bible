@@ -70,7 +70,7 @@ At Layer 2 there are two protocols for **Access VPN**:
 **Layer 3**:
 
 - Packets are forwarded through the public network, and routing is based on Layer 3 addresses given that the routers and the hosts have IP addresses.
-- Tunneling in a Layer 3 VPN means that a packet is carried through an *IP network within an IP packet (IP-in-IP tunnelling)*, so an extra header for the tunneling is added. Typically, the protocols for performing the tunneling operation are [[network security/VPN/L3 - IPsec/GRE - Generic Routing Encapsulation|GRE]] or [[network security/VPN/L3 - IPsec/_IPsec|_IPsec]].
+- Tunneling in a Layer 3 VPN means that a packet is carried through an *IP network within an IP packet (IP-in-IP tunnelling)*, so an extra header for the tunneling is added. Typically, the protocols for performing the tunneling operation are [[network security/VPN/L3 - IPsec/GRE - Generic Routing Encapsulation|GRE]] or [[network security/VPN/L3 - IPsec/_IPsec|IPsec]].
 
 
 **Layer 4**:

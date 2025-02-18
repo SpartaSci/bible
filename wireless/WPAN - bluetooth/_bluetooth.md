@@ -56,7 +56,7 @@ It is am **overloaded spectrum**, meaning that there's a lot of interference
 - CRC - cyclic redundancy check 
 - [[wireless/Communications/FEC - forward error correction|FEC - forward error correction]] thanks to ECC error correction code
 
-**Modulation**: [[signal analysis/modulation/analog carrier/digital data modulation#Phase Shift Key (PSK)|PSK]]
+**Modulation**: [[signal analysis/modulation/analog carrier/modulation to achieve digital data#Phase Shift Key (PSK)|PSK]]
 
 **Spread spectrum**: [[signal analysis/spread spectrum|spread spectrum]] -> [[signal analysis/signal multiplexing#CDM - Code Division Multiplexing|CDMA]]
 

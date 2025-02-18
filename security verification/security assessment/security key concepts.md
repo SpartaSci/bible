@@ -1,0 +1,9 @@
+
+![](https://www.researchgate.net/publication/364728281/figure/fig1/AS:11431281096079112@1668084282580/Security-Complexity-at-Higher-Abstraction-adopted-from-Casmir-2005.ppm)
+
+
+When we speak about cybersecurity it has to do with the protection of **assets** from intended action that would harm them. These assets have a **value**. These assets may be exposed to malicious activities by [[security verification/security assessment/vulnerability|vulnerability]] that are weaknesses that the system has, and they can be referred e.g., to the system that manages the asset, or a system intended for security protection that has a vulnerability itself. Vulnerabilities are **exploited by** attackers that are **threats** to the system. Threats increase what is called the **security risk**, which is related both to threats and vulnerability, but also to the value that the asset has. If there are many threats the risk will increase, and it will also depend on the kind of threat. We introduce **security control** to protect the system. It protects against threat (e.g., attackers are threats to the system). The security control reduces the **security risk**. The security control enforces **security requirement** which shows what risk reduction is wanted and is indicated by the security risk.
+
+A **vulnerability** is a specific weak point of a system (e.g., software version that has a weak point) while a **weakness** is a type of vulnerability (e.g., buffer overflow) and a more general term.
+
+A vulnerability, which is an instance of a weakness is exploitable by means of exploits. The **exploit** is typically used by the attacker to perform an **attack** (e.g., script or program). If an attack is successful, then it can cause **failure/incident**. A failure means that a security policy has been violated. Violation of security policy (specify the protection of the software) means that asset has been some way damaged by the incident.

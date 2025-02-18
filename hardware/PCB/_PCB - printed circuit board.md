@@ -48,7 +48,7 @@ Example:  ^900a18
 ### permutation networks
 
 >Add a component to connect chips correctly only with a certain key 
-([[cybersec/attacks/trojan|trojan]] link per il futuro)
+([[cybersec/attacks/trojan/trojan|trojan]] link per il futuro)
 
 
 ### dummy ICs

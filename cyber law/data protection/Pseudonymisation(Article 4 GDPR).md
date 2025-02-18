@@ -1,0 +1,2 @@
+### Pseudonymisation(Article 4 GDPR)
+>**pseudonymisation** means the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separatelyand is subject to technical and organisationalmeasuresto ensure that the personal data are not attributed to an identified or identifiable natural person”

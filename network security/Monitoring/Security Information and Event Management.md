@@ -3,7 +3,7 @@
 
 >**Security information and event management (SIEM)** is the process of identifying, gathering, monitoring, analyzing, and reporting security related events.
 
-The **main objective** of SIEM is to extract from a large volume of security events those events that qualify as incidents. Then, the collected event data are analyzed, using security algorithms and statistical computations, to identify any vulnerability, threat, or risk.
+The **main objective** of SIEM is to extract from a large volume of [[network security/Monitoring/Security Event Logging#^4bb7f4|security events]] those events that qualify as [[network security/Monitoring/Security Event Logging#^f8ed11|incidents]]. Then, the collected event data are analyzed, using security algorithms and statistical computations, to identify any vulnerability, threat, or risk.
 
 
 

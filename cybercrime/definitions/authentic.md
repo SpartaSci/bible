@@ -1,0 +1,1 @@
+>  any tampering with digital evidence needs to be avoided; otherwise, the evidence becomes unauthentic and unusable by a judge.

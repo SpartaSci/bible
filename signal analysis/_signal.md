@@ -23,11 +23,8 @@ $$P(x) = \lim_{a\to\infty} \frac{1}{2a} \int_{-a}^{a}\lvert x(t) \rvert^2 dt  $$
 > is the process of varying one or more properties of a periodic waveform, called **carrier signal** with a separate signal called th **modulation signal** that typically contains information to be transmitted.
 
 
-[[signal analysis/modulation/analog carrier/analog data modulation|analog data modulation]]
-
-[[signal analysis/modulation/analog carrier/digital data modulation|digital data modulation]]
-
-[[signal analysis/modulation/PAM - Pulse Amplitude Modulation|PAM - Pulse Amplitude Modulation]]
+[[signal analysis/modulation/analog carrier/analog data modulation|analog data modulation]] -> [[signal analysis/modulation/analog carrier/modulation to achieve digital data|modulation to achieve digital data]]
+simplest AM to achieve digital data -> [[signal analysis/modulation/PAM - Pulse Amplitude Modulation|PAM - Pulse Amplitude Modulation]]
 
 [[signal analysis/modulation/Two-dimensional modulations|Two-dimensional modulations]]
 

@@ -67,10 +67,10 @@ A possible signature could also be the noise: is the signal strength, therefore 
 
 # Attacks on CSMA-CD
 
-[[wireless/WLAN - wifi/CSMA-CD|CSMA-CD]]
+[[wireless/WLAN - wifi/CSMA-CD|CSMA-CD]] probabilmente è sempre CSMA-CA
 
 # Attack on CMSA-CA
-[[wireless/WLAN - wifi/CSMA-CA#Attack on RTS/CTS virtual carrier sense|CSMA-CA]]
+Attack on RTS/CTS [[wireless/WLAN - wifi/CSMA-CA#Attack on RTS/CTS virtual carrier sense|CSMA-CA]]
 
 # Attacks on Power Saving in 802.11
 
