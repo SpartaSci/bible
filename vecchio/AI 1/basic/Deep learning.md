@@ -1,0 +1,2 @@
+**Deep Learning (DL)** is a subset of the [[vecchio/AI 1/basic/Neural Network|NN]] branch of ML. It can be performed with many different architectures and requires model engineering techniques.
+Its most immediate difference from shallow NNs is that it is characterized by many hidden layers (at least three, as a rule of thumb).

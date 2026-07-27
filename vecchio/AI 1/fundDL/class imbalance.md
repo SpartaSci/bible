@@ -1,0 +1,1 @@
+Classi sbilanciate portano il modello a ignorare le classi poco frequenti → accuracy ingannevole → risultati inutili, specialmente quando le classi rare sono quelle che più ti interessano.

@@ -1,7 +1,7 @@
 {
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
-  "spellcheck": true,
+  "spellcheck": false,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": false,
